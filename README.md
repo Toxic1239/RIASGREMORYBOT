@@ -3,7 +3,7 @@
   
 ***
   
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=THANKS FOR CHOOSING +RIAS_GREMORY-BOT;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+TOXXIC+BOY;RELEASED+07.07.24" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=THANKS FOR CHOOSING ;RIAS_GREMORY-BOT;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+TOXXIC+BOY;RELEASED+07.07.24" alt="Typing SVG" /></a>
   </p>
     <img alt="TOXXIC-MD" width="830" height="950" src="https://i.imgur.com/EBUvKfB.jpeg">
 <p align="center">
