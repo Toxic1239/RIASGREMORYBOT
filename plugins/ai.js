@@ -294,7 +294,7 @@ const {
         }
   
         const result = data.result;
-        return await message.send(`*ᴀsᴛᴀ ʙᴀʀᴅ ᴀɪ:*\n ${result}`, { quoted: message });
+        return await message.send(`*RIAS_GREMORY-BOT ʙᴀʀᴅ ᴀɪ:*\n ${result}`, { quoted: message });
       } catch (error) {
         await message.error(error + "\n\nCommand: bard", error, "*Failed to use Bard AI.*");
       }
@@ -317,7 +317,7 @@ const {
       if (!data.result.success) return message.send("*There's a problem, try again later!*");
   
       const { reply } = data.result;
-      const astro = "ᴀsᴛᴀ ɢᴘᴛ𝟺\n";
+      const astro = "RIAS_GREMORY-BOT ɢᴘᴛ𝟺\n";
       const tbl = "```";
       await send(message, `${astro}${tbl}${reply}${tbl}`);
     } catch (error) {
@@ -340,7 +340,7 @@ const {
       if (!res.status === 200) return message.send("*There's a problem, try again later!*");
   
       const { result } = res;
-      const astro = "ᴀsᴛᴀ ɢᴇᴍɪɴɪ ᴀɪ"
+      const astro = "RIAS_GREMORY-BOT ɢᴇᴍɪɴɪ ᴀɪ"
       const tbl = "```";
       await send(message, `${astro}${tbl}${result}${tbl}`);
     } catch (e) {
@@ -397,7 +397,7 @@ const {
       filename: __filename,
     },
     async (_0x1c0160, _0x482db1) => {
-        let astro = "ᴀsᴛᴀ ᴄʜᴀᴛ ʙᴏᴛ"
+        let astro = "RIAS_GREMORY-BOT ᴄʜᴀᴛ ʙᴏᴛ"
       try {
         return _0x1c0160.reply(await aiResponce(_0x1c0160, "chat", _0x482db1));
       } catch (_0x4adf95) {
@@ -689,7 +689,7 @@ const {
           _0x3079e2.msgStatus = true;
           _0x3079e2.senderMsg = _0x358984;
           _0x5f656f =
-            "*ᴀsᴛᴀ-ᴍᴅ • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ*\n\n*Msg_Id:* " +
+            "*RIAS_GREMORY-BOTᴅ • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ*\n\n*Msg_Id:* " +
             _0x3079e2.id +
             "\n*Date:* _" +
             _0xbcd286 +
@@ -732,8 +732,8 @@ const {
             return;
           }
           if (
-            _0x2acf30.reply_text.includes("ᴀsᴛᴀ-ᴍᴅ • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ") &&
-            _0x2dfb59[0].includes("ᴀsᴛᴀ-ᴍᴅ • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ") &&
+            _0x2acf30.reply_text.includes("RIAS_GREMORY-BOT• ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ") &&
+            _0x2dfb59[0].includes("RIAS_GREMORY-BOT • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ") &&
             _0x2dfb59[2].includes("Msg_Id")
           ) {
             let _0x1b0d01 = "" + _0x2dfb59[2].replace("*Msg_Id:* ", "").trim();
@@ -748,7 +748,7 @@ const {
                   _0x2ecd2a.howmanyreply += 1;
                   const _0x5a2204 = _0x2acf30.text.indexOf(",");
                   let _0x3f6b59 =
-                    "*ᴀsᴛᴀ-ᴍᴅ • ʏᴏᴜʀ ᴀɴᴏɴʏ-ᴍsɢ ʀᴇᴘʟʏ*\n\n*_From @" +
+                    "*RIAS_GREMORY-BOT • ʏᴏᴜʀ ᴀɴᴏɴʏ-ᴍsɢ ʀᴇᴘʟʏ*\n\n*_From @" +
                     _0x2ecd2a.reciever.split("@")[0] +
                     "_*\n*_Msg_Id: " +
                     _0x2ecd2a.id +
