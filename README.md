@@ -38,4 +38,4 @@ UNDER CONSTRUCTION
 
 ### THANKS TO:
 
-- [***Suhail Ser***](https://github.com/SuhailTechInfo) For Code encryption 
+- 
