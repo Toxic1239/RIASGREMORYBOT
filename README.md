@@ -13,7 +13,7 @@
 
 #### SETUP 
 
-***1.`First STAR 🌟 This Repo ` And Then [`FORK`](https://github.com/Toxic1239/RIAS_GREMORY-BOT/fork) It***
+***1.`First STAR 🌟 This Repo ` And Then [`FORK`](https://github.com/Toxic1239/RIASGREMORYBOT/fork) It***
 UNDER CONSTRUCTION
 
 ***
