@@ -318,7 +318,7 @@ ${menuThemeCommandPrefix} *ᴄᴏᴍᴍᴀɴᴅs:* ${commands.length}
 ${menuThemeCommandPrefix} *ᴜsᴀɢᴇ ᴛʀᴇɴᴅ:* ${trend_usage}
 ${menuThemeCommandPrefix} *ᴅᴀᴛᴀʙᴀsᴇ:* ${database_info}
 ${menuThemeFooter}                         
-*RIAS_GREMORY-BOT ᴘᴀᴛᴄʜ 𝟸.5.𝟶*
+*RIAS_GREMORY-BOT ᴘᴀᴛᴄʜ 1.𝟶*
 ${readmore}`;
 
       for (const category in categorizedCommands) {
@@ -540,7 +540,7 @@ astro_patch.smd(
     const endTime = new Date().getTime();
     const pingTime = endTime - startTime;
     await context.send(
-      `*ʟᴀᴛᴇɴᴄʏ: ${pingTime} ᴍs*`,
+      `*RIAS_GREMORY-BOT ping is: ${pingTime} ᴍs*`,
       { edit: messageKey },
       "",
       context
@@ -561,7 +561,7 @@ smd(
       const designs = [
         async () => {
           const imageBuffer = await axios.get(
-            "https://i.imgur.com/z20pSwu.jpeg",
+            "https://i.imgur.com/EBUvKfB.jpeg",
             {
               responseType: "arraybuffer",
             }
@@ -578,7 +578,7 @@ smd(
           const quoteText = `\n\n*"${quote.result.body}"*\n_- ${quote.result.author}_`;
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `RIAS_GREMORY-BOT 𝟸.𝟶.𝟶 ᴘᴀᴛᴄʜ\n\n*Ping:* ${pingSeconds} seconds${quoteText}\n\nᴀsᴛᴀ ᴍᴅ`;
+          const captionText = `RIAS_GREMORY-BOT 1.𝟶.𝟶 ᴘᴀᴛᴄʜ\n\n*Ping:* ${pingSeconds} seconds${quoteText}\n\nRIAS_GREMORY-BOT`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
@@ -600,7 +600,7 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `RIAS_GREMORY-BOT 𝟸.𝟶.𝟶 ᴘᴀᴛᴄʜ\n\n*Ping:* ${pingSeconds} seconds\n\n*Fact:*\n${fact.result.fact}\n\n+RIAS_GREMORY-BOT`;
+          const captionText = `RIAS_GREMORY-BOT 1.𝟶.𝟶 ᴘᴀᴛᴄʜ\n\n*Ping:* ${pingSeconds} seconds\n\n*Fact:*\n${fact.result.fact}\n\n+RIAS_GREMORY-BOT`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
@@ -622,7 +622,7 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `ᴀsᴛᴀ ᴍᴅ 𝟸.𝟶.𝟶 ᴘᴀᴛᴄʜ\n\n*Ping:* ${pingSeconds} seconds\n\n*Line:*\n${line.result}\n\nᴀsᴛᴀ ᴍᴅ`;
+          const captionText = `RIAS_GREMORY-BOT 1.𝟶.𝟶 ᴘᴀᴛᴄʜ\n\n*Ping:* ${pingSeconds} seconds\n\n*Line:*\n${line.result}\n\nRIAS_GREMORY-BOT`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
