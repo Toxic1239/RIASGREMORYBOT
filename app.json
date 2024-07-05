@@ -1,0 +1,132 @@
+{
+    "name": "asta-md@2.5.0",
+    "description": "Simple WhatsApp Bot",
+    "logo": "https://github.com/Astropeda/Asta-Md/blob/main/lib/assets/logo.png?raw=true",
+    "keywords": ["Asta-Md", "asta", "Asta-Bot"],
+    "success_url": "/",
+    "stack": "container",
+  
+    "env": {
+      "OWNER_NAME": {
+        "description": "Name for Bot Owner",
+        "value": "Astro",
+        "required": true
+      },
+  
+      "WELCOME": {
+        "description": "put 'false' or 'true' to enable & disable WELCOME ",
+        "value": "false",
+        "required": false
+      },
+      "USER_IMAGES": {
+        "description": "Menu Images",
+        "value": "https://i.imgur.com/mHEqQgr.jpg,https://i.imgur.com/lSdca7B.jpg,https://i.imgur.com/UslG8eB.jpg,https://i.imgur.com/0OQxTyt.jpg,https://i.imgur.com/MJCmdiA.jpg,https://i.imgur.com/K7zFZl2.jpg,https://i.imgur.com/2ge7IOd.jpg",
+        "required": false
+      },
+  
+      "GOODBYE": {
+        "description": "put 'false' or 'true' to enable & disable GOODBYE ",
+        "value": "false",
+        "required": false
+      },
+      "MENU": {
+        "description": "choose 1, 2, 3",
+        "value": "1"
+      },
+      "THUMB_IMAGE": {
+        "description": "Thumbnail",
+        "value": "https://i.imgur.com/P37NWrz.jpeg"
+      },
+      "BOT_NAME": {
+        "description": " NAME FOR BOT",
+        "required": false,
+        "value": "ᴀsᴛᴀ-ᴍᴅ"
+      },
+      "TZ": {
+        "description": "Put TIME_ZONE according to your location",
+        "required": false,
+        "value": "Africa/Lagos"
+      },
+      "READ_COMMAND": {
+        "description": " Read bot cmds",
+        "required": false,
+        "value": "false"
+      },
+      "WARN_COUNT": {
+        "description": " Warn count for users to kick/block when warn limit exceed!",
+        "required": false,
+        "value": "3"
+      },
+      "AUTO_SAVE_STATUS": {
+        "description": " Auto save whatsapp status",
+        "required": false,
+        "value": "false"
+      },
+      "HEROKU_API_KEY": {
+        "description": "Put Your Heroku Api Key Here",
+        "value": "",
+        "required": true
+      },
+      "HEROKU_APP_NAME": {
+        "description": "Put Your Heroku App Name Here",
+        "value": "",
+        "required": true
+      },
+      "WAPRESENCE": {
+        "description": "Fill the value: 'unavailable'(for nothing) | 'available'(for alwaysonline) | 'composing'(for typing) | 'recording' | 'paused' ",
+        "required": false,
+        "value": "unavailable"
+      },
+      "AUTO_READ_STATUS": {
+        "description": "Fill the value true if you want bot view your Statuses.",
+        "required": false,
+        "value": "true"
+      },
+      "MSGS_IN_LOG": {
+        "description": "Fill the value -true- if you want to see Messages in logs.",
+        "required": false,
+        "value": "false"
+      },
+      "READ_MESSAGE": {
+        "description": "Fill the value true if you want bot to read all messages.",
+        "required": false,
+        "value": "false"
+      },
+      "DISABLE_PM": {
+        "description": "Make it 'false' if you wanna run bot in your pm (if MODE is Public)",
+        "value": "false",
+        "required": false
+      },
+      "PREFIX": {
+        "description": "Enter your desired prefix for bot. you can set `all | . | .!*`",
+        "value": "."
+      },
+      "OWNER_NUMBER": {
+        "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
+        "value": "2348039607375"
+      },
+      "SESSION_ID": {
+        "description": "put your SESSION_ID here.",
+        "value": ""
+      },
+      "MODE": {
+        "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
+        "value": "private"
+      },
+      "PACK_NAME": {
+        "description": "Put Sticker Pack_Name.",
+        "value": "Asta Md",
+        "required": false
+      },
+      "PACK_AUTHER": {
+        "description": "Put Sticker Author_Name.",
+        "value": "",
+        "required": false
+      }
+    },
+    "addons": [{ "plan": "heroku-postgresql:basic" }],
+    "buildpacks": [
+      { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" },
+      { "url": "https://github.com/carlosdommor/heroku-buildpack-ffmpeg-latest" }
+    ]
+  }
