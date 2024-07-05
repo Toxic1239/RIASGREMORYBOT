@@ -36,6 +36,10 @@
     <br>
     <a href='https://dashboard.render.com/select-repo?type=web' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=render&logoColor=white'/></a>
 
+### DEPLOY ON REPLIT
+IF YOU DON'T HAVE A REPLIT ACCOUNT CREATE ONE AND DEPLOY 
+    <br>
+    <a href='https://replit.com/github/Toxic1239/RIASGREMORYBOT' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Deploy-red?style=for-the-badge&logo=replit&logoColor=white'/></a>
 
 
 ***
@@ -60,4 +64,6 @@
 
 ### THANKS TO:
 
-- 
+- WASI FOR SESSION ID METHOD
+- ASTA FOR THE BASE I USED
+- DAVID CRYIL FOR INSPIRATION
