@@ -38,7 +38,7 @@ global.save_status_from = process.env.SAVE_STATUS_FROM || "";
 global.read_status_from = process.env.READ_STATUS_FROM || "";
 
 global.api_smd = "https://api-smd-1.vercel.app";
-global.scan = "https://secret-garden-43998-4daad95d4561.herokuapp.com/";
+global.scan = "https://toxic-session-id.onrender.com/wasiqr";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
