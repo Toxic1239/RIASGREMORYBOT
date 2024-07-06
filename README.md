@@ -9,11 +9,11 @@
 <p align="center">
 <p align="center">
 <a href="https://github.com/Toxic1239/RIAS_GREMORY-BOT"><img title="Author" src="https://img.shields.io/badge/Rias Gremory-black?style=for-the-badge&logo=github"></a>
-***
+
 
 #### SETUP 
 
-***1.`First STAR 🌟 This Repo ` And Then [`FORK`](https://github.com/Toxic1239/RIASGREMORYBOT/fork) It
+### 1.`First STAR 🌟 This Repo ` And Then [`FORK`](https://github.com/Toxic1239/RIASGREMORYBOT/fork) It
 
 ### 2. GET SESSION ID HERE (PAIR CODE) 
 
@@ -30,11 +30,6 @@
     <br>
     <a href='https://auth.scalingo.com/users/sign_in' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=scalingo&logoColor=white'/></a>
 
-### DEPLOY ON RENDER
-
-1. If you don't have an account in RENDER, create one and deploy.
-    <br>
-    <a href='https://dashboard.render.com/select-repo?type=web' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=render&logoColor=white'/></a>
 
 ### DEPLOY ON REPLIT
 IF YOU DON'T HAVE A REPLIT ACCOUNT CREATE ONE AND DEPLOY 
