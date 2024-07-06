@@ -117,7 +117,7 @@ try {
   });
 } catch (_0x2568c0) {
   if (!global.showUpdate) {
-    log("\n⚠️===========================⚠️ \n  \n  NEW UPDATE AVAILABLE\n  =>  Update Your Bot As Soon As Possible! 🚫\n \n Regards: ASTROPEDA\n⚠️============================⚠️");
+    log("\n⚠️===========================⚠️ \n  \n  NEW UPDATE AVAILABLE\n  =>  Update Your Bot As Soon As Possible! 🚫\n \n Regards: TOXXIC MD \n⚠️============================⚠️");
     global.showUpdate = true;
   }
 }
@@ -244,7 +244,7 @@ smd(
       const designs = [
         async () => {
           const imageBuffer = await axios.get(
-            "https://i.imgur.com/z20pSwu.jpeg",
+            "https://i.imgur.com/EBUvKfB.jpeg",
             {
               responseType: "arraybuffer",
             }
@@ -261,7 +261,7 @@ smd(
           const quoteText = `\n\n*"${quote.result.body}"*\n_- ${quote.result.author}_`;
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `ᴀsᴛᴀ ᴍᴅ 𝟸.5.𝟶 ᴘᴀᴛᴄʜ\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds${quoteText}\n\nᴀsᴛᴀ ᴍᴅ`;
+          const captionText = `RIAS_GREMORY-BOT \n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds${quoteText}\n\nRIAS_GREMORY-BOT`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
@@ -283,13 +283,13 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `ᴀsᴛᴀ ᴍᴅ 𝟸.5.𝟶 ᴘᴀᴛᴄʜ\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds\n\n*Fact:*\n${fact.result.fact}\n\nᴀsᴛᴀ ᴍᴅ`;
+          const captionText = `RIAS_GREMORY-BOT\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds\n\n*Fact:*\n${fact.result.fact}\n\nRIAS GREMORY BOT`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
         async () => {
           const imageBuffer = await axios.get(
-            "https://i.imgur.com/OQOH4Gn.jpeg",
+            "https://i.imgur.com/EBUvKfB.jpeg",
             {
               responseType: "arraybuffer",
             }
@@ -305,7 +305,7 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `ᴀsᴛᴀ ᴍᴅ 𝟸.5.𝟶 ᴘᴀᴛᴄʜ\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds\n\n*Line:*\n${line.result}\n\nᴀsᴛᴀ ᴍᴅ`;
+          const captionText = `RIAS_GREMORY-BOT\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds\n\n*Line:*\n${line.result}\n\nRIAS_GREMORY-BOT`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
