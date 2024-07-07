@@ -384,9 +384,9 @@ smd(
         formatp(os.totalmem() - os.freemem()) +
         "/" +
         formatp(os.totalmem()) +
-        "\n\n *🧑‍💻 :*  RIAS_GREMORY-BOT ɪꜱ ɴᴏᴡ Aᴠᴀɪʟᴀʙʟᴇ\n\n" +
+        "\n\n *🤸‍♂️ :*  RIAS_GREMORY-BOT ɪꜱ ɴᴏᴡ Aᴠᴀɪʟᴀʙʟᴇ\n\n" +
         readmore +
-        "\n╭──❰ *ALL MENU* ❱\n│🏮 Lɪꜱᴛ\n│🏮 Cᴀᴛᴇɢᴏʀʏ\n│🏮 Hᴇʟᴘ\n│🏮 Aʟɪᴠᴇ\n│🏮 Uᴘᴛɪᴍᴇ\n│🏮 Wᴇᴀᴛʜᴇʀ\n│🏮 Lɪɴᴋ\n│🏮 Cᴘᴜ\n│🏮 Rᴇᴘᴏꜱɪᴛᴏʀʏ\n╰─────────────⦁"
+        "\n╭──❰ *ALL MENU* ❱\n│💀 Lɪꜱᴛ\n│💀 Cᴀᴛᴇɢᴏʀʏ\n│💀 Hᴇʟᴘ\n│💀 Aʟɪᴠᴇ\n│💀 Uᴘᴛɪᴍᴇ\n│💀 Wᴇᴀᴛʜᴇʀ\n│🏮 Lɪɴᴋ\n│🏮 Cᴘᴜ\n│🏮 Rᴇᴘᴏꜱɪᴛᴏʀʏ\n╰─────────────⦁"
       ).trim();
       return await _0x22514a.bot.sendUi(_0x22514a.from, {
         caption: _0x20ed34,
