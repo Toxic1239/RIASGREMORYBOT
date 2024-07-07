@@ -264,11 +264,11 @@ astro_patch.smd(
         Config.menu.toLowerCase().includes("menu1")
       ) {
         menuThemeHeader = "╭━━━〔 *" + Config.botname + "* 〕━━━┈⊷";
-        menuThemeCommandPrefix = "┃✵│";
-        menuThemeFooter = "┃✵╰──────────────\n╰━━━━━━━━━━━━━━━┈⊷";
+        menuThemeCommandPrefix = "┃♱│";
+        menuThemeFooter = "┃♱╰──────────────\n╰━━━━━━━━━━━━━━━┈⊷";
         menuThemeCategoryHeader = "╭─────────────┈⊷\n│「";
         menuThemeCategoryFooter = "」\n╰┬────────────┈⊷";
-        menuThemeCommandPrefix = "││◦➛";
+        menuThemeCommandPrefix = "││×͜×";
         menuThemeCommandFooter = "│╰────────────┈⊷\n╰─────────────┈⊷";
       } else if (
         menuThemeType === 2 ||
@@ -310,15 +310,15 @@ astro_patch.smd(
       let menuText = `
 ${menuThemeHeader}
 ${menuThemeCommandPrefix} *ᴏᴡɴᴇʀ:* ${Config.ownername}
-${menuThemeCommandPrefix} *ᴜᴘᴛɪᴍᴇ:* ${runtime(process.uptime())}
+${menuThemeCommandPrefix} *ʀᴜɴᴛɪᴍᴇ:* ${runtime(process.uptime())}
 ${menuThemeCommandPrefix} *ʀᴀᴍ ᴜsᴀɢᴇ:* ${formatp(os.totalmem() - os.freemem())}
 ${menuThemeCommandPrefix} *ᴛɪᴍᴇ:* ${currentTime}
 ${menuThemeCommandPrefix} *ᴅᴀᴛᴇ:* ${currentDate}
 ${menuThemeCommandPrefix} *ᴄᴏᴍᴍᴀɴᴅs:* ${commands.length}
 ${menuThemeCommandPrefix} *ᴜsᴀɢᴇ ᴛʀᴇɴᴅ:* ${trend_usage}
-${menuThemeCommandPrefix} *ᴅᴀᴛᴀʙᴀsᴇ:* ${database_info}
+${menuThemeCommandPrefix} *ᴅᴀᴛᴀʙᴀsᴇ ᴛʏᴘᴇ:* ${database_info}
 ${menuThemeFooter}                         
-*RIAS_GREMORY-BOT ᴘᴀᴛᴄʜ 1.𝟶*
+*ʀɪᴀs_ɢʀᴇᴍᴏʀʏ-ʙᴏᴛ*
 ${readmore}`;
 
       for (const category in categorizedCommands) {
