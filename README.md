@@ -28,13 +28,13 @@
 
 1. If you don't have an account in Scalingo, create one and deploy.
     <br>
-    <a href='https://auth.scalingo.com/users/sign_in' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=scalingo&logoColor=white'/></a>
+    <a href='https://auth.scalingo.com/users/sign_in' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-white?style=for-the-badge&logo=scalingo&logoColor=white'/></a>
 
 
 ### DEPLOY ON REPLIT
 IF YOU DON'T HAVE A REPLIT ACCOUNT CREATE ONE AND DEPLOY 
     <br>
-    <a href='https://replit.com/github/Toxic1239/RIASGREMORYBOT' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Deploy-blue?style=for-the-badge&logo=replit&logoColor=white'/></a>
+    <a href='https://replit.com/github/Toxic1239/RIASGREMORYBOT' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Deploy-red?style=for-the-badge&logo=replit&logoColor=white'/></a>
     
  ### DEPLOY ON RAILWAY `COMPANY HAVING ISSUES RN`
 1. Deploy.
