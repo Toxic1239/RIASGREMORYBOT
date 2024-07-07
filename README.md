@@ -49,6 +49,10 @@ IF YOU DON'T HAVE A REPLIT ACCOUNT CREATE ONE AND DEPLOY
 ### CONTRIBUTIONS 
 -Contributions to RIAS_GREMORY-BOT are welcome! If you have ideas for new features, improvements, or bug fixes, feel free to open an issue or submit a pull request.
 
+<br>
+    <a href='https://github.com/Toxic1239/RIASGREMORYBOT/issues/new/choose' target="_blank"><img alt='Railway' src='https://img.shields.io/badge/-REPORT ISSUE-red?style=for-the-badge&logo=railway&logoColor=white'/></a>
+
+
 ***
 
 ### LICENSE 
