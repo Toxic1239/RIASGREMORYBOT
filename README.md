@@ -28,7 +28,7 @@
 
 1. If you don't have an account in Scalingo, create one and deploy.
     <br>
-    <a href='https://auth.scalingo.com/users/sign_in' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-white?style=for-the-badge&logo=scalingo&logoColor=white'/></a>
+    <a href='https://auth.scalingo.com/users/sign_in' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-orange?style=for-the-badge&logo=scalingo&logoColor=white'/></a>
 
 
 ### DEPLOY ON REPLIT
