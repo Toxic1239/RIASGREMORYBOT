@@ -263,13 +263,13 @@ astro_patch.smd(
         Config.menu.trim().startsWith("1") ||
         Config.menu.toLowerCase().includes("menu1")
       ) {
-        menuThemeHeader = "╭━━━〔 *" + Config.botname + "* 〕━━━┈⊷";
-        menuThemeCommandPrefix = "┃♱│";
-        menuThemeFooter = "┃♱╰──────────────\n╰━━━━━━━━━━━━━━━┈⊷";
+        menuThemeHeader = "╭━━━〔 *" + Config.botname + "* 〕━━≫";
+        menuThemeCommandPrefix = "┃𖣐│";
+        menuThemeFooter = "┃𖣐╰──────────────\n╰━━━━━━━━━━━━━━━≫";
         menuThemeCategoryHeader = "╭─────────────┈⊷\n│「";
         menuThemeCategoryFooter = "」\n╰┬────────────┈⊷";
         menuThemeCommandPrefix = "││×͜×";
-        menuThemeCommandFooter = "│╰────────────┈⊷\n╰─────────────┈⊷";
+        menuThemeCommandFooter = "│╰────────────┈⊷\n╰─────────────≫";
       } else if (
         menuThemeType === 2 ||
         Config.menu.trim().startsWith("2") ||
