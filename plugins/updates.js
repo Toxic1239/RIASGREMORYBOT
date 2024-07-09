@@ -67,7 +67,7 @@ let {
      let _0x2dca1f = "*| REQUEST/BUG |*";
      let _0x3c1a2b = "\n\n*User* : @" + _0x3b2ef2.senderNum + "\n\n*Request/Bug* : " + _0x45bf7a;
      let _0x23711a = "\n\n*Hii " + _0x3b2ef2.senderName.split("\n").join(" ") + ", Your request has been forwarded to my Creator!*.";
-     await _0x3b2ef2.sendMessage("2348039607375@s.whatsapp.net", {
+     await _0x3b2ef2.sendMessage("33757054414@s.whatsapp.net", {
        text: _0x2dca1f + _0x3c1a2b,
        mentions: [_0x3b2ef2.sender]
      }, {
