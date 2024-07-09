@@ -3,46 +3,8 @@
   
 ***
   
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=THANKS FOR CHOOSING ;RIAS_GREMORY-BOT;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+TOXXIC+BOY;RELEASED+09.07.24" alt="Typing SVG" /></a>
-  </p>
-    <img alt="TOXXIC-MD" width="830" height="950" src="https://i.imgur.com/EBUvKfB.jpeg">
-<p align="center">
-<p align="center">
-<a href="https://github.com/Toxic1239/RIAS_GREMORY-BOT"><img title="Author" src="https://img.shields.io/badge/Rias Gremory-black?style=for-the-badge&logo=github"></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=UNDER CONSTRUCTION" alt="Typing SVG" /></a>
 
-
-#### SETUP 
-
-### 1.`First STAR 🌟 This Repo ` And Then [`FORK`](https://github.com/Toxic1239/RIASGREMORYBOT/fork) It
-
-### 2. GET SESSION ID HERE (PAIR CODE) 
-
-<a href='https://toxic-session-id.onrender.com/pair' target="_blank"><img alt='PAIR CODE' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
-
-### 3. GET SESSION ID HERE (QR CODE) 
-
-<a href='https://toxic-session-id.onrender.com/wasiqr' target="_blank"><img alt='QR CODE' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
-
-### STEP 2
-ADD SESSION ID TO YOUR FORKED REPO IN CONFIG.JS
-AND DEPLOY
-
-### DEPLOY ON SCALINGO
-
-1. If you don't have an account in Scalingo, create one and deploy.
-    <br>
-    <a href='https://auth.scalingo.com/users/sign_in' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-orange?style=for-the-badge&logo=scalingo&logoColor=white'/></a>
-
-
-### DEPLOY ON REPLIT
-IF YOU DON'T HAVE A REPLIT ACCOUNT CREATE ONE AND DEPLOY 
-    <br>
-    <a href='https://replit.com/github/Toxic1239/RIASGREMORYBOT' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Deploy-red?style=for-the-badge&logo=replit&logoColor=white'/></a>
-    
- ### DEPLOY ON RAILWAY `COMPANY HAVING ISSUES RN`
-1. Deploy.
-    <br>
-    <a href='https://railway.com/github/Toxic1239/RIASGREMORYBOT' target="_blank"><img alt='Railway' src='https://img.shields.io/badge/-Deploy-green?style=for-the-badge&logo=railway&logoColor=white'/></a>
 
 
 
