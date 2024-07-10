@@ -5,7 +5,7 @@ const Config = require("../config");
 smd(
   {
     pattern: "pussy",
-    category: "nsfw",
+    category: "hentai",
     filename: __filename,
     desc: "Gets pussy pics.",
   },
@@ -32,7 +32,7 @@ smd(
 smd(
   {
     pattern: "ass",
-    category: "nsfw",
+    category: "hentai",
     filename: __filename,
     desc: "Gets ass pics.",
   },
@@ -60,7 +60,7 @@ smd(
   {
     pattern: "nai",
     desc: "Generate an AI photo.",
-    category: "nsfw",
+    category: "hentai",
     filename: __filename,
     use: "<query>",
   },
@@ -133,7 +133,7 @@ smd(
 smd(
   {
     pattern: "boobs",
-    category: "nsfw",
+    category: "hentai",
     filename: __filename,
     desc: "Gets boob pics.",
   },
@@ -160,7 +160,7 @@ smd(
 smd(
   {
     pattern: "nwaifu",
-    category: "nsfw",
+    category: "hentai",
     filename: __filename,
     desc: "Gets waifu pics.",
   },
@@ -187,7 +187,7 @@ smd(
 smd(
   {
     pattern: "yuri",
-    category: "nsfw",
+    category: "hentai",
     filename: __filename,
     desc: "Gets yuri pics.",
   },
@@ -214,7 +214,7 @@ smd(
 smd(
   {
     pattern: "dick",
-    category: "nsfw",
+    category: "hentai",
     filename: __filename,
     desc: "Gets dick pics.",
   },
@@ -241,7 +241,7 @@ smd(
 smd(
   {
     pattern: "lesbian",
-    category: "nsfw",
+    category: "hentai",
     filename: __filename,
     desc: "Gets lesbian pics.",
   },
@@ -268,7 +268,7 @@ smd(
 smd(
   {
     pattern: "blowjob",
-    category: "nsfw",
+    category: "hentai",
     filename: __filename,
     desc: "Gets blowjob pics.",
   },
@@ -295,7 +295,7 @@ smd(
 smd(
   {
     pattern: "bdsm",
-    category: "nsfw",
+    category: "hentai",
     filename: __filename,
     desc: "Gets bdsm pics.",
   },
@@ -322,7 +322,7 @@ smd(
 smd(
   {
     pattern: "fuck",
-    category: "nsfw",
+    category: "hentai",
     filename: __filename,
     desc: "Gets fuck pics.",
   },
@@ -349,7 +349,7 @@ smd(
 smd(
   {
     pattern: "fingering",
-    category: "nsfw",
+    category: "hentai",
     filename: __filename,
     desc: "Gets fingering pics.",
   },

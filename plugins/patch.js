@@ -263,13 +263,13 @@ astro_patch.smd(
         Config.menu.trim().startsWith("1") ||
         Config.menu.toLowerCase().includes("menu1")
       ) {
-        menuThemeHeader = "╭━━━〔 *" + Config.botname + "* 〕━━≫";
+        menuThemeHeader = "╭━━━〔 *" + Config.botname + "* 〕━━➢";
         menuThemeCommandPrefix = "┃𖣐│";
-        menuThemeFooter = "┃𖣐╰──────────────\n╰━━━━━━━━━━━━━━━≫";
-        menuThemeCategoryHeader = "╭─────────────┈⊷\n│「";
-        menuThemeCategoryFooter = "」\n╰┬────────────┈⊷";
+        menuThemeFooter = "┃𖣐╰──────────────\n╰━━━━━━━━━━━━━━━➢";
+        menuThemeCategoryHeader = "╭─────────────➢\n│「";
+        menuThemeCategoryFooter = "」\n╰┬────────────➢";
         menuThemeCommandPrefix = "││×͜×";
-        menuThemeCommandFooter = "│╰────────────┈⊷\n╰─────────────≫";
+        menuThemeCommandFooter = "│╰────────────➢\n╰─────────────➢";
       } else if (
         menuThemeType === 2 ||
         Config.menu.trim().startsWith("2") ||
@@ -318,7 +318,8 @@ ${menuThemeCommandPrefix} *ᴄᴏᴍᴍᴀɴᴅs:* ${commands.length}
 ${menuThemeCommandPrefix} *ᴜsᴀɢᴇ ᴛʀᴇɴᴅ:* ${trend_usage}
 ${menuThemeCommandPrefix} *ᴅᴀᴛᴀʙᴀsᴇ ᴛʏᴘᴇ:* ${database_info}
 ${menuThemeFooter}                         
-*ʀɪᴀs_ɢʀᴇᴍᴏʀʏ-ʙᴏᴛ*
+*ʀɪᴀs_ɢʀᴇᴍᴏʀʏ-ʙᴏᴛ 
+ᴍᴀᴅᴇ ʙʏ ᴛᴏxxɪᴄ ᴍᴅ, +33757054414 ғʀᴇ ʜᴇʟᴘ*
 ${readmore}`;
 
       for (const category in categorizedCommands) {
@@ -536,11 +537,11 @@ astro_patch.smd(
   },
   async (context) => {
     const startTime = new Date().getTime();
-    const { key: messageKey } = await context.reply("*hmm...*");
+    const { key: messageKey } = await context.reply("*ᴄʜᴇᴄᴋɪɴɢ...*");
     const endTime = new Date().getTime();
     const pingTime = endTime - startTime;
     await context.send(
-      `*RIAS_GREMORY-BOT ping is: ${pingTime} ᴍs*`,
+      `*RIAS_GREMORY-BOT ᴘɪɴɢ ɪs: ${pingTime} ᴍs*`,
       { edit: messageKey },
       "",
       context

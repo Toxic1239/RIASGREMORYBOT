@@ -35,9 +35,9 @@ try {
     {
       pattern: "checkupdate",
       desc: "Shows repo's refreshed commits.",
-      category: "tools",
+      category: "setting",
       fromMe: true,
-      react: "🍂",
+      react: "⚙️",
       filename: __filename,
       use: process.env.HEROKU_API_KEY ? "[ start ]" : "",
     },
@@ -46,12 +46,12 @@ try {
         let commits = await DB.syncgit();
         if (commits.total === 0)
           return await citel.reply(
-            `*RIAS_GREMORY-BOT IS RUNNING ON LATEST\nPATCHES\nFIXES\UPGRADES*`
+            `*RIAS_GREMORY-BOT IS RUNNING ON LATEST\nPATCHES\nMaster*`
           );
         let update = await DB.sync();
         await citel.bot.sendMessage(
           citel.chat,
-          { text: update.replace(/SuhailTechIMd/, "Astropeda") },
+          { text: update.replace(/SuhailTechIMd/, "Toxic1239") },
           { quoted: citel }
         );
         if (
@@ -75,7 +75,7 @@ try {
         ? "*UPDATE SUCCESS*"
         : "UPDATED YOUR DEPLOYEMENT",
       fromMe: true,
-      category: "tools",
+      category: "setting",
       filename: __filename,
     },
     async (citel) => {

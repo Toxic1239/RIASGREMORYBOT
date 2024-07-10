@@ -11,27 +11,27 @@ smd(
    {
      cmdname: "shutdown",
      info: "To restart bot",
-     type: "tools",
+     type: "setting",
      fromMe: s_ser,
      filename: __filename,
    },
    async (_0x514d3c) => {
      const { exec: _0x1912df } = require("child_process");
-     _0x514d3c.reply("Shutting Down");
+     _0x514d3c.reply("Rias Is Shutting Down...");
      _0x1912df("pm2 stop all");
    }
  );
 smd({
   cmdname: "restart",
   info: "To restart bot",
-  type: "tools",
+  type: "setting",
   fromMe: s_ser,
   filename: __filename
 }, async _0x514d3c => {
   const {
     exec: _0x1912df
   } = require("child_process");
-  _0x514d3c.reply("Restarting");
+  _0x514d3c.reply("Rias is Restarting");
   _0x1912df("pm2 restart all");
 });
 smd({
