@@ -7,7 +7,7 @@
   </p>
     <img alt="TOXXIC-MD" width="830" height="950" src="https://i.imgur.com/EBUvKfB.jpeg">
 <p align="center">
-<p align="center">
+<priasgremorybot align="center">
 <a href="https://github.com/Toxic1239/RIAS_GREMORY-BOT"><img title="Author" src="https://img.shields.io/badge/Rias Gremory-black?style=for-the-badge&logo=github"></a>
 
 
@@ -17,7 +17,7 @@
 
 ### 2. GET SESSION ID HERE 
 
-<a href='[https://toxic-session-id-izm3.onrender.com/](https://riasgremorybot-xcqv.onrender.com/)' target="_blank"><img alt='PAIR CODE' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
+<a href='(https://riasgremorybot-xcqv.onrender.com/)' target="_blank"><img alt='PAIR CODE' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
 
 
 ### STEP 2
