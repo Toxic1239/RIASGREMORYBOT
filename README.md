@@ -15,13 +15,10 @@
 
 ### 1.`First STAR 🌟 This Repo ` And Then [`FORK`](https://github.com/Toxic1239/RIASGREMORYBOT/fork) It
 
-### 2. GET SESSION ID HERE (PAIR CODE) 
+### 2. GET SESSION ID HERE 
 
-<a href='https://toxic-session-id-izm3.onrender.com/' target="_blank"><img alt='PAIR CODE' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
+<a href='[https://toxic-session-id-izm3.onrender.com/](https://riasgremorybot-xcqv.onrender.com/)' target="_blank"><img alt='PAIR CODE' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
 
-### 3. GET SESSION ID HERE (QR CODE) 
-
-<a href='https://toxic-session-id-izm3.onrender.com/' target="_blank"><img alt='QR CODE' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
 
 ### STEP 2
 ADD SESSION ID TO YOUR FORKED REPO IN CONFIG.JS
