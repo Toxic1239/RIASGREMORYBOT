@@ -17,7 +17,7 @@
 
 ### 2. GET SESSION ID HERE 
 
-<a href='(https://riasgremorybot-xcqv.onrender.com/)' target="_blank"><img alt='PAIR CODE' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
+<a href='https://riasgremorybot-xcqv.onrender.com/' target="_blank"><img alt='PAIR CODE' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
 
 
 ### STEP 2
