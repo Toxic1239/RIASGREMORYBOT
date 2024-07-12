@@ -319,7 +319,7 @@ ${menuThemeCommandPrefix} *ᴜsᴀɢᴇ ᴛʀᴇɴᴅ:* ${trend_usage}
 ${menuThemeCommandPrefix} *ᴅᴀᴛᴀʙᴀsᴇ ᴛʏᴘᴇ:* ${database_info}
 ${menuThemeFooter}                         
 *ʀɪᴀs_ɢʀᴇᴍᴏʀʏ-ʙᴏᴛ 
-ᴍᴀᴅᴇ ʙʏ ᴛᴏxxɪᴄ ᴍᴅ, +33757054414 ғʀᴇ ʜᴇʟᴘ*
+ᴀ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ᴛᴏxxɪᴄ ʙᴏʏ*
 ${readmore}`;
 
       for (const category in categorizedCommands) {
