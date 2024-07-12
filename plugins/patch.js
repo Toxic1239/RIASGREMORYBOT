@@ -387,7 +387,7 @@ smd(
         formatp(os.totalmem()) +
         "\n\n *🤸‍♂️ :*  RIAS_GREMORY-BOT ɪꜱ ɴᴏᴡ Aᴠᴀɪʟᴀʙʟᴇ\n\n" +
         readmore +
-        "\n╭──❰ *ALL MENU* ❱\n│💀 Lɪꜱᴛ\n│💀 Cᴀᴛᴇɢᴏʀʏ\n│💀 Hᴇʟᴘ\n│💀 Aʟɪᴠᴇ\n│💀 Uᴘᴛɪᴍᴇ\n│💀 Wᴇᴀᴛʜᴇʀ\n│🏮 Lɪɴᴋ\n│🏮 Cᴘᴜ\n│🏮 Rᴇᴘᴏꜱɪᴛᴏʀʏ\n╰─────────────⦁"
+        "\n╭──❰ *ALL MENU* ❱\n│💀 Lɪꜱᴛ\n│💀 Cᴀᴛᴇɢᴏʀʏ\n│💀 Hᴇʟᴘ\n│💀 Aʟɪᴠᴇ\n│💀 Uᴘᴛɪᴍᴇ\n│💀 Wᴇᴀᴛʜᴇʀ\n│💀 Lɪɴᴋ\n│💀 Cᴘᴜ\n│💀 Rᴇᴘᴏꜱɪᴛᴏʀʏ\n╰─────────────⦁"
       ).trim();
       return await _0x22514a.bot.sendUi(_0x22514a.from, {
         caption: _0x20ed34,
@@ -537,11 +537,11 @@ astro_patch.smd(
   },
   async (context) => {
     const startTime = new Date().getTime();
-    const { key: messageKey } = await context.reply("*ᴄʜᴇᴄᴋɪɴɢ...*");
+    const { key: messageKey } = await context.reply("*ᴄᴀʟᴄᴜʟᴀᴛɪɴɢ...*");
     const endTime = new Date().getTime();
     const pingTime = endTime - startTime;
     await context.send(
-      `*RIAS_GREMORY-BOT ᴘɪɴɢ ɪs: ${pingTime} ᴍs*`,
+      `* ʀɪᴀs ᴄᴜʀʀᴇɴᴛ ᴘɪɴɢ ɪs: ${pingTime} ᴍs*`,
       { edit: messageKey },
       "",
       context
@@ -585,7 +585,7 @@ smd(
         },
         async () => {
           const imageBuffer = await axios.get(
-            "https://i.imgur.com/lIo3cM2.jpeg",
+            "https://i.imgur.com/EBUvKfB.jpeg",
             {
               responseType: "arraybuffer",
             }
@@ -670,7 +670,7 @@ smd(
 
       const ramUsage = process.memoryUsage().heapTotal / 1024 / 1024;
 
-      const message = `*RIAS_GREMORY-BOT ʀᴜɴɴɪɴɢ sɪɴᴄᴇ:* ${uptimeHours}h ${uptimeMinutes}ᴍ ${uptimeSeconds}s\n \t_ʜᴇʀᴇ's ᴍᴏʀᴇ ɪɴғᴏ_\n*ʀᴀᴍ ᴜsᴀɢᴇ:* ${ramUsage.toFixed(2)} MB\n*ᴄᴘᴜ ɴᴀᴍᴇ:* ${cpuModel}`;
+      const message = `*ʀɪᴀs ɪs ʀᴜɴɴɪɴɢ ғᴏʀ:* ${uptimeHours}h ${uptimeMinutes}ᴍ ${uptimeSeconds}s\n \t_ʜᴇʀᴇ's ᴍᴏʀᴇ ɪɴғᴏ_\n*ʀᴀᴍ ᴜsᴀɢᴇ:* ${ramUsage.toFixed(2)} MB\n*ᴄᴘᴜ ɴᴀᴍᴇ:* ${cpuModel}`;
       const contextInfo = {
         isForwarded: true,
         forwardingScore: 999,
