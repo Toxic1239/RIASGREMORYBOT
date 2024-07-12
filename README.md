@@ -9,7 +9,11 @@
 <p align="center">
 <priasgremorybot align="center">
 <a href="https://github.com/Toxic1239/RIAS_GREMORY-BOT"><img title="Author" src="https://img.shields.io/badge/Rias Gremory-black?style=for-the-badge&logo=github"></a>
-
+<p align="center">
+<a href="https://github.com/Toxic1239/followers"><img title="Followers" src="https://img.shields.io/github/followers/Toxic1239?color=blue&style=flat-square"></a>
+<a href="https://github.com/Toxic1239/RIASGREMORYBOT/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Toxic1239/RIASGREMORYBOT?color=red&style=flat-square"></a>
+<a href="https://github.com/Toxic1239/RIASGREMORYBOT/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Toxic1239/RIASGREMORYBOT?color=green&style=flat-square"></a>
+<a href="https://github.com/Toxic1239/RIASGREMORYBOT/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Toxic1239/RIASGREMORYBOT?label=Watchers&color=yellow&style=flat-square"></a>
 
 #### SETUP 
 
