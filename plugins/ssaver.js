@@ -122,7 +122,7 @@ smd(
   },
   async (message, text) => {
     try {
-      message.send(`dm toxxic boy on WhatsApp on wa.me/33757054414`.trim());
+      message.send(`Rias Gremory Bot is a new WhatsApp bot made by Toxxic Tech using Asta Md as a base. Enjoy`.trim());
     } catch (e) {
       console.error("Error:", e);
       message.reply(`*ERROR!* `);
