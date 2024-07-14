@@ -46,7 +46,7 @@ try {
         let commits = await DB.syncgit();
         if (commits.total === 0)
           return await citel.reply(
-            `*RIASGREMORY BOT IS RUNNING ON LATEST\nUPDATE\n😏😏*`
+            `*RIASGREMORY BOT IS RUNNING ON LATEST*\nUPDATE\n😏😏`
           );
         let update = await DB.sync();
         await citel.bot.sendMessage(
