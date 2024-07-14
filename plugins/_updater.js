@@ -46,7 +46,7 @@ try {
         let commits = await DB.syncgit();
         if (commits.total === 0)
           return await citel.reply(
-            `*RIAS_GREMORY-BOT IS RUNNING ON LATEST\nPATCHES\nMaster*`
+            `*RIASGREMORY BOT IS RUNNING ON LATEST\nUPDATE\n😏😏*`
           );
         let update = await DB.sync();
         await citel.bot.sendMessage(
@@ -73,7 +73,7 @@ try {
       pattern: "update",
       desc: process.env.HEROKU_API_KEY
         ? "*UPDATE SUCCESS*"
-        : "UPDATED YOUR DEPLOYEMENT",
+        : "UPDATED YOUR DEPLOYMENT",
       fromMe: true,
       category: "setting",
       filename: __filename,
