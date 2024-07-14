@@ -39,7 +39,7 @@ smd(
     filename: __filename,
   },
   async (message) => {
-    const SupportMsg = `RIAS_GREMORY-BOT REPO COMMAND ISN'T WORKING SO USE THIS\n\n *REPO:* https://github.com/Toxic1239/RIASGREMORYBOT\n\n ${Config.botname} *REPO*`;
+    const SupportMsg = `Support Toxxic Md\n\n OPay Bank: OPay Digital Services Limited(OPay)\n\n OPay Account: 9071884720 Name: FOLAKEMI GLORIA FASORO\n\n ${Config.botname} *Nigeria Show Love*`;
 
     const contextInfo = {
       forwardingScore: 999,
