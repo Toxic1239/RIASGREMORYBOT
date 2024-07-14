@@ -93,7 +93,7 @@ try {
         await citel.reply(
           process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY
             ? "*`BOT UPDATED`*\n*RESTART YOUR BOT FOR UPDATE TO TAKE EFFECT*"
-            : "```*Successfully updated. Now You Have Latest Version Installed!*"
+            : "`Successfully updated. Now You Have Latest Version Installed!`"
         );
       } catch (e) {
         citel.error(`${e}\n\nCommand: updatenow`, e, "ERROR!");
