@@ -32,8 +32,8 @@ let {
 );
 smd(
   {
-    pattern: "support",
-    desc: "To check ping",
+    pattern: "donate",
+    desc: "To encourage me",
     react: "🗨️",
     category: "user",
     filename: __filename,
