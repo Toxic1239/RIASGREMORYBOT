@@ -8,7 +8,7 @@ global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
 global.email = "Obidikechikadibia@gmail.com";
 global.location = "Ondo, Nigeria";
-global.mongodb = process.env.MONGODB_URI || "";
+global.mongodb = process.env.MONGODB_URI || "mongodb+srv://toxicmd:toxxicmd12@toxic1239.04ozxeb.mongodb.net/?retryWrites=true&w=majority&appName=Toxic1239";
 global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
