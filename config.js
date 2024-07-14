@@ -47,7 +47,7 @@ module.exports = {
   menu: process.env.MENU || "1",
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
-  VERSION: process.env.VERSION || "1.0.0",
+  VERSION: process.env.VERSION || "1.2",
   caption: process.env.CAPTION || "©ᴛᴏxxɪᴄ ᴍᴅ $",
   author: process.env.PACK_AUTHER || "ᴛᴏxxɪᴄ ᴍᴅ",
   packname: process.env.PACK_NAME || "♥️",
