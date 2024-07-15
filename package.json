@@ -1,19 +1,19 @@
 {
-   "name": "toxic",
-   "version": "1.0.0",
-   "description": "Multi device whatsapp bot by Toxic.",
+   "name": "asta-md-botto",
+   "version": "2.5.0",
+   "description": "Multi device whatsapp bot by Astropeda.",
    "main": "index.js",
    "type": "commonjs",
    "scripts": {
-      "run": "pm2 start . --deep-monitoring --attach --name ToxicPatch || node .",
-      "asta": "pm2 start . --deep-monitoring --attach --name ToxicPatch || node .",
+      "run": "pm2 start . --deep-monitoring --attach --name AstroPatch || node .",
+      "asta": "pm2 start . --deep-monitoring --attach --name AstroPatch || node .",
       "start": "pm2 start . --attach --name AstroPatch",
       "stop": "pm2 stop AstroPatch",
-      "heroku-postbuild": "git clone https://github.com/Toxic1239/RIASGREMORYBOT.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
-      "fis-heroku-postbuild": "git clone https://github.com/Toxic1239/RIASGREMORYBOT.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
+      "heroku-postbuild": "git clone https://github.com/Astropeda/Asta-Md.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
+      "fis-heroku-postbuild": "git clone https://github.com/Astropeda/Asta-Md.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
       "postinstall": "npx puppeteer@latest install --y"
    },
-   "author": "Toxxi",
+   "author": "Astropeda",
    "license": "Apache-2.0",
    "dependencies": {
       "@adiwajshing/keyed-db": "^0.2.4",
@@ -75,10 +75,10 @@
    },
    "repository": {
       "type": "git",
-      "url": "git+https://github.com/Toxic1239/RIASGREMORYBOT"
+      "url": "git+https://github.com/Astropeda/Asta-Md.git"
    },
    "bugs": {
-      "url": "https://github.com/Toxic1239/RIASGREMORYBOT/issues"
+      "url": "https://github.com/Astropeda/Asta-Md/issues"
    },
-   "homepage": "https://github.com/Toxic1239/RIASGREMORYBOTd#readme"
+   "homepage": "https://github.com/Astropeda/Asta-Md#readme"
 }
