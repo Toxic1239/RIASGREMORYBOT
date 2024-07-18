@@ -549,7 +549,7 @@ astro_patch.smd(
     );
   }
 );
-sᴍᴅ(
+smd(
   {
     pattern: "alive",
     desc: "Shows system status with different designs.",
