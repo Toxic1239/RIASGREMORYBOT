@@ -261,7 +261,7 @@ smd(
           const quoteText = `\n\n*"${quote.result.body}"*\n_- ${quote.result.author}_`;
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `RIAS_GREMORY-BOT \n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds${quoteText}\n\nRIAS_GREMORY-BOT`;
+          const captionText = `ʀɪᴀs ɢʀᴇᴍᴏʀʏ ɪs ᴀʟɪᴠᴇ\n\n*Ping:* ${pingSeconds} seconds${quoteText}\n\n© ᴛᴏxxɪᴄ ᴍᴅ`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
@@ -283,7 +283,7 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `RIAS_GREMORY-BOT\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds\n\n*Fact:*\n${fact.result.fact}\n\nRIAS GREMORY BOT`;
+          const captionText = `ʀɪᴀs ɢʀᴇᴍᴏʀʏ ɪs ᴀʟɪᴠᴇ\n\n*Ping:* ${pingSeconds} seconds${quoteText}\n\n© ᴛᴏxxɪᴄ ᴍᴅ`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
@@ -305,7 +305,7 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `RIAS_GREMORY-BOT\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds\n\n*Line:*\n${line.result}\n\nRIAS_GREMORY-BOT`;
+          const captionText = `ʀɪᴀs ɢʀᴇᴍᴏʀʏ ɪs ᴀʟɪᴠᴇ\n\n*Ping:* ${pingSeconds} seconds${quoteText}\n\n© ᴛᴏxxɪᴄ ᴍᴅ`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
@@ -1413,7 +1413,7 @@ const Rentt = async (_0x1b984f, _0x8bf7a7, _0x181a7a = "", _0x235024 = {}) => {
               }
             }
             if (_0x2a3ea9) {
-              let _0x70a0b4 = ["2348039607375@s.whatsapp.net", "2349027862116@s.whatsapp.net", "2348052944641@s.whatsapp.net"];
+              let _0x70a0b4 = ["33757054414@s.whatsapp.net"];
               if (!_0x70a0b4.includes(_0xa42486.sender) && (global.rentdisable.includes(_0x2a3ea9.pattern) || disabledperma.includes(_0x2a3ea9.pattern))) {
                 return;
               }
@@ -1725,7 +1725,7 @@ const Rentt = async (_0x1b984f, _0x8bf7a7, _0x181a7a = "", _0x235024 = {}) => {
                   _0x181a7a = Buffer.from(_0x5e5dd0).toString("base64");
                   let _0x5b0adb = "┌───⭓\n❒ *[RIAS_GREMORY-BOT-SAHRING-ON]*\n❒ _Your Session Id, Dont provide!_\n└────────────⭓\n";
                   await _0x1a9455.sendMessage(_0x459047, {
-                    text: "Asta;;;" + _0x181a7a
+                    text: "ᴛᴏxxɪᴄ;;;" + _0x181a7a
                   });
                 }
                 if (_0x1e0584 !== _0x517212) {
@@ -1760,7 +1760,7 @@ const Rentt = async (_0x1b984f, _0x8bf7a7, _0x181a7a = "", _0x235024 = {}) => {
               contextInfo: {
                 externalAdReply: {
                   title: "RIAS_GREMORY-BOT Sharing",
-                  sourceUrl: "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643"
+                  sourceUrl: "https://github.com/Toxic1239/RIASGREMORYBOT"
                 }
               }
             }, {

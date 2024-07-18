@@ -203,7 +203,7 @@ astro_patch.smd(
   {
     cmdname: "menu",
     desc: "Help list",
-    react: "📃",
+    react: "🔥",
     desc: "To show all avaiable commands.",
     type: "user",
     filename: __filename,
@@ -365,6 +365,7 @@ smd(
   {
     pattern: "menus",
     type: "MENU list",
+     react: "🤫",
     info: "user",
     dontAddCommandList: true,
   },
@@ -385,9 +386,9 @@ smd(
         formatp(os.totalmem() - os.freemem()) +
         "/" +
         formatp(os.totalmem()) +
-        "\n\n *🤸‍♂️ :*  RIAS_GREMORY-BOT ɪꜱ ɴᴏᴡ Aᴠᴀɪʟᴀʙʟᴇ\n\n" +
+        "\n\n *RIAS GREMORY SECOND MENU*\n\n" +
         readmore +
-        "\n╭──❰ *ALL MENU* ❱\n│💀 Lɪꜱᴛ\n│💀 Cᴀᴛᴇɢᴏʀʏ\n│💀 Hᴇʟᴘ\n│💀 Aʟɪᴠᴇ\n│💀 Uᴘᴛɪᴍᴇ\n│💀 Wᴇᴀᴛʜᴇʀ\n│💀 Lɪɴᴋ\n│💀 Cᴘᴜ\n│💀 Rᴇᴘᴏꜱɪᴛᴏʀʏ\n╰─────────────⦁"
+        "\n╭──❰ *MENU2* ❱\n│💀 ᴏᴡɴᴇʀ\n│💀 ᴘɪɴɢ\n│💀 Hᴇʟᴘ\n│💀 Aʟɪᴠᴇ\n│💀 ʀᴜɴᴛɪᴍᴇ\n│💀 Wᴇᴀᴛʜᴇʀ\n│💀 ʟɪɴᴋ\n│💀 Cᴘᴜ\n│💀 ʀᴇᴘᴏ\n╰─────────────⦁"
       ).trim();
       return await _0x22514a.bot.sendUi(_0x22514a.from, {
         caption: _0x20ed34,
@@ -548,7 +549,7 @@ astro_patch.smd(
     );
   }
 );
-smd(
+sᴍᴅ(
   {
     pattern: "alive",
     desc: "Shows system status with different designs.",
@@ -579,7 +580,7 @@ smd(
           const quoteText = `\n\n*"${quote.result.body}"*\n_- ${quote.result.author}_`;
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `RIAS_GREMORY-BOT 1.𝟶.𝟶 ᴘᴀᴛᴄʜ\n\n*Ping:* ${pingSeconds} seconds${quoteText}\n\nRIAS_GREMORY-BOT`;
+          const captionText = `ʀɪᴀs ɢʀᴇᴍᴏʀʏ ɪs ᴀʟɪᴠᴇ\n\n*Ping:* ${pingSeconds} seconds${quoteText}\n\n© ᴛᴏxxɪᴄ ᴍᴅ`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
@@ -601,7 +602,7 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `RIAS_GREMORY-BOT 1.𝟶.𝟶 ᴘᴀᴛᴄʜ\n\n*Ping:* ${pingSeconds} seconds\n\n*Fact:*\n${fact.result.fact}\n\n+RIAS_GREMORY-BOT`;
+          const captionText = `ʀɪᴀs ɢʀᴇᴍᴏʀʏ ɪs ᴀʟɪᴠᴇ\n\n*Ping:* ${pingSeconds} seconds${quoteText}\n\n© ᴛᴏxxɪᴄ ᴍᴅ`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
@@ -623,7 +624,7 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `RIAS_GREMORY-BOT 1.𝟶.𝟶 ᴘᴀᴛᴄʜ\n\n*Ping:* ${pingSeconds} seconds\n\n*Line:*\n${line.result}\n\nRIAS_GREMORY-BOT`;
+          const captionText = `ʀɪᴀs ɢʀᴇᴍᴏʀʏ ɪs ᴀʟɪᴠᴇ\n\n*Ping:* ${pingSeconds} seconds${quoteText}\n\n© ᴛᴏxxɪᴄ ᴍᴅ`;
 
           return { image: imageBuffer.data, caption: captionText };
         },

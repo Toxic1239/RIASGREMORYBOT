@@ -34,7 +34,7 @@ smd(
   {
     pattern: "donate",
     desc: "To encourage me",
-    react: "🗨️",
+    react: "😍️",
     category: "user",
     filename: __filename,
   },
