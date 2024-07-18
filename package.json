@@ -1,16 +1,16 @@
 {
-   "name": "asta-md-botto",
+   "name": "rias-md",
    "version": "2.5.0",
-   "description": "Multi device whatsapp bot by Astropeda.",
+   "description": "Multi device whatsapp bot by Toxxic Md.",
    "main": "index.js",
    "type": "commonjs",
    "scripts": {
-      "run": "pm2 start . --deep-monitoring --attach --name AstroPatch || node .",
-      "asta": "pm2 start . --deep-monitoring --attach --name AstroPatch || node .",
+      "run": "pm2 start . --deep-monitoring --attach --name Rias || node .",
+      "asta": "pm2 start . --deep-monitoring --attach --name Rias || node .",
       "start": "pm2 start . --attach --name AstroPatch",
       "stop": "pm2 stop AstroPatch",
-      "heroku-postbuild": "git clone https://github.com/Astropeda/Asta-Md.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
-      "fis-heroku-postbuild": "git clone https://github.com/Astropeda/Asta-Md.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
+      "heroku-postbuild": "git cclon https://github.com/Toxic1239/RIASGREMORYBOT.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
+      "fis-heroku-postbuild": "git clone https://github.com/Toxic1239/RIASGREMORYBOT.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
       "postinstall": "npx puppeteer@latest install --y"
    },
    "author": "Astropeda",
@@ -75,10 +75,10 @@
    },
    "repository": {
       "type": "git",
-      "url": "git+https://github.com/Astropeda/Asta-Md.git"
+      "url": "git+https://github.com/Toxic1239/RIASGREMORYBOT.git"
    },
    "bugs": {
-      "url": "https://github.com/Astropeda/Asta-Md/issues"
+      "url": "https://github.com/Toxic1239/RIASGREMORYBOT/issues"
    },
-   "homepage": "https://github.com/Astropeda/Asta-Md#readme"
+   "homepage": "https://github.com/Toxic1239/RIASGREMORYBOT#readme"
 }
