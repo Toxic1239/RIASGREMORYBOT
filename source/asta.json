@@ -1,7 +1,7 @@
 {
     "__JSON__": true,
-    "AUTHOR": "Toxxic Me",
-    "theme": "RIAS_GREMORY-BOT",
+    "AUTHOR": "Toxxic Md",
+    "theme": "Rias",
     "LANGUAGE": "English",
     "LANGCODE": "en",  
     "STRINGS": { 
@@ -21,7 +21,7 @@
             "pic6": "https://i.imgur.com/EBUvKfB.jpeg", 
             "pic7": "https://i.imgur.com/EBUvKfB.jpeg",
             "greet" : "Hey there",
-            "dotbody" : "Oh Sir TOXXIC My Creator.",
+            "dotbody" : "Oh Sir Toxxic My Creator.",
             "emojii" : "🍑", 
             "promote": "RIAS is an Admin",
             "pmallow": "Hello &user Do not Spam",
@@ -32,7 +32,7 @@
             "session": "\n kepp your session id safe sir",
             "mention": "Tag my owner",
             "title": "RIAS_GREMORY-BOT",
-            "footer": "RIAS_GREMORY-BOT",
+            "footer": "Made By Toxxic Boy",
             "by": "Made by: TOXXIC MD",
             "chat_desc": "Options Avilable* : 1. mute\n2. unmute\n3. archive\n4. unarchive\n5. read\n6. unread\n7. delete",
             "success": "Done ✓",
