@@ -75,7 +75,7 @@ const {
 *Followers:* ${followers}
 *Following:* ${following}
 
-\t*RIAS_GREMORY-BOT IG STALKER*
+*RIAS_GREMORY-BOT IG STALKER*
 `;
 
       await m.bot.sendFromUrl(m.from, photo_profile, caption, m, {}, "image");
@@ -238,7 +238,7 @@ smd(
   {
     pattern: "ipstalk",
     desc: "Get information about an IP address.",
-    category: "misc",
+    category: "stalker",
     filename: __filename,
     use: "<ip_address>",
   },

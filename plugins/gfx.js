@@ -12,8 +12,8 @@ const {
   }, _0x5ccef2 = true) => {
     try {
       _0x3930d1 += ": ser";
-      let _0x478253 = "Example  : *" + (prefix + _0x1fed9f) + "* Asta";
-      let _0x12ae56 = "*Separate the text with ':' sign*\n*Example : " + (prefix + _0x1fed9f) + " Asta : Bot*";
+      let _0x478253 = "Example  : *" + (prefix + _0x1fed9f) + "* Rias";
+      let _0x12ae56 = "*Separate the text with ':' sign*\n*Example : " + (prefix + _0x1fed9f) + " Rias : Bot*";
       let _0x36f282 = _0x3930d1.split(":")[0];
       let _0x2d2a89 = _0x1fed9f.toLowerCase();
       switch (_0x2d2a89) {
@@ -202,9 +202,9 @@ const {
     Void: _0x2c219b
   }) => {
     try {
-      let _0x2106bc = "*Separate the text with _:_ sign!*\n*Example : " + (prefix + _0x123e7d) + " Asta _:_ Bot*";
+      let _0x2106bc = "*Separate the text with _:_ sign!*\n*Example : " + (prefix + _0x123e7d) + " Rias _:_ Bot*";
       if (!_0x2f534c) {
-        let _0x4a015 = "┌───〈 *ɢꜰx ᴍᴇɴᴜ*  〉───◆\n│╭─────────────···▸\n┴│▸\n⬡│▸ " + gfxx.join(" \n⬡│▸ ") + "\n┬│▸\n│╰────────────···▸▸\n└───────────────···▸\n\n\t *USE: " + (prefix + _0x123e7d) + " Asta:Md*\n_To get All Results with single Cmd!_\n";
+        let _0x4a015 = "┌───〈 *ɢꜰx ᴍᴇɴᴜ*  〉───◆\n│╭─────────────···▸\n┴│▸\n⬡│▸ " + gfxx.join(" \n⬡│▸ ") + "\n┬│▸\n│╰────────────···▸▸\n└───────────────···▸\n\n\t *USE: " + (prefix + _0x123e7d) + " Rias:Gremory*\n_To get All Results with single Cmd!_\n";
         return await _0x1f82ce.sendUi(_0x1f82ce.chat, {
           caption: _0x4a015
         });
