@@ -1,5 +1,5 @@
 
-# RIAS_GREMORY-BOT WhatsApp Bot Simple Document
+# RIAS_GREMORY-BOT 1.3 WhatsApp Bot Simple Document
 ### Simple Document on how The Database Works
 ----------------------------------------------------------------
 ### Simple Document on how The Database Works
