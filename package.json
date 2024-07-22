@@ -7,9 +7,9 @@
    "scripts": {
       "run": "pm2 start . --deep-monitoring --attach --name Rias || node .",
       "asta": "pm2 start . --deep-monitoring --attach --name Rias || node .",
-      "start": "pm2 start . --attach --name AstroPatch",
-      "stop": "pm2 stop AstroPatch",
-      "heroku-postbuild": "git cclon https://github.com/Toxic1239/RIASGREMORYBOT.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
+      "start": "pm2 start . --attach --name Rias",
+      "stop": "pm2 stop Rias",
+      "heroku-postbuild": "git clone https://github.com/Toxic1239/RIASGREMORYBOT.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
       "fis-heroku-postbuild": "git clone https://github.com/Toxic1239/RIASGREMORYBOT.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
       "postinstall": "npx puppeteer@latest install --y"
    },
