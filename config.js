@@ -6,7 +6,7 @@ global.audio = "";
 global.video = "";
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
-global.email = "Obidikechikadibia@gmail.com";
+global.email = "obidikechikadibia@gmail.com";
 global.location = "Ondo, Nigeria";
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://toxicmd:toxxicmd12@toxic1239.04ozxeb.mongodb.net/?retryWrites=true&w=majority&appName=Toxic1239";
 global.allowJids = process.env.ALLOW_JID || "null";
@@ -42,21 +42,21 @@ global.scan = "https://riasgremorybot-xcqv.onrender.com/";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
-  "" //add session id
+  ""
 module.exports = {
   menu: process.env.MENU || "1",
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
-  VERSION: process.env.VERSION || "1.2",
-  caption: process.env.CAPTION || "©ᴛᴏxxɪᴄ ᴍᴅ $",
+  VERSION: process.env.VERSION || "1.3",
+  caption: process.env.CAPTION || "𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 𝗧𝗢𝗫𝗫𝗜𝗖 𝗕𝗢𝗬",
   author: process.env.PACK_AUTHER || "ᴛᴏxxɪᴄ ᴍᴅ",
-  packname: process.env.PACK_NAME || "♥️",
-  botname: process.env.BOT_NAME || "ᴛᴏxxɪᴄ ᴍᴅ",
+  packname: process.env.PACK_NAME || "𝗥𝗜𝗔𝗦 𝗠𝗗",
+  botname: process.env.BOT_NAME || "𝗥𝗜𝗔𝗦 𝗚𝗥𝗘𝗠𝗢𝗥𝗬",
   ownername: process.env.OWNER_NAME || "ᴛᴏxxɪᴄ",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "neLbXXrp8bSDcohnp1CW5UEa",
-  OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
+  OPENAI_API_KEY: process.env.OPENAI_API_KEY || "EyqbCCWYTc8b49cmWM0KT3BlbkFJ0NRSC7K1BiTJo3ikuriW",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || "HRKU-2fc4d785-535b-4113-8291-84c5d3d6d2c3",
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || "toxicmd12",
   antilink_values: process.env.ANTILINK_VALUES || "all",
@@ -64,7 +64,7 @@ module.exports = {
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
-  LANG: (process.env.THEME || "ASTA").toUpperCase(),
+  LANG: (process.env.THEME || "RIAS").toUpperCase(),
 };
 global.rank = "updated";
 global.isMongodb = false;
