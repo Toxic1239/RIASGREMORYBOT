@@ -42,10 +42,10 @@ global.scan = "https://riasgremorybot-xcqv.onrender.com/";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
-  ""
+  "" //add session id
 module.exports = {
   menu: process.env.MENU || "1",
-  HANDLERS: process.env.PREFIX || "null",
+  HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.2",
   caption: process.env.CAPTION || "©ᴛᴏxxɪᴄ ᴍᴅ $",
