@@ -5,7 +5,7 @@
   
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=THANKS FOR CHOOSING ;RIAS_GREMORY-BOT;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+TOXXIC+BOY;RELEASED+09.07.24" alt="Typing SVG" /></a>
   </p>
-    <img alt="TOXXIC-MD" width="830" height="950" src="https://i.imgur.com/EBUvKfB.jpeg">
+    <img alt="TOXXIC-MD" width="720" height="931" src="https://telegra.ph/file/e07fa9dfd176ce3a2886a.jpg">
 <p align="center">
 <priasgremorybot align="center">
 <a href="https://github.com/Toxic1239/RIAS_GREMORY-BOT"><img title="Author" src="https://img.shields.io/badge/Rias Gremory-black?style=for-the-badge&logo=github"></a>
