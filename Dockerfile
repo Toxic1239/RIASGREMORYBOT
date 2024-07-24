@@ -1,4 +1,4 @@
-FROM quay.io/astrofx011/docker
+FROM quay.io/sampandey001/secktor
 
 RUN git clone https://github.com/Toxic1239/RIASGREMORYBOT /root/Toxic1239
 
