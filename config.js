@@ -47,7 +47,7 @@ module.exports = {
   menu: process.env.MENU || "1",
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
-  VERSION: process.env.VERSION || "1.3",
+  VERSION: process.env.VERSION || "1.3.1",
   caption: process.env.CAPTION || "𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 𝗧𝗢𝗫𝗫𝗜𝗖 𝗕𝗢𝗬",
   author: process.env.PACK_AUTHER || "ᴛᴏxxɪᴄ ᴍᴅ",
   packname: process.env.PACK_NAME || "𝗥𝗜𝗔𝗦 𝗠𝗗",
