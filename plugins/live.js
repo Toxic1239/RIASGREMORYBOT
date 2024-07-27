@@ -6,10 +6,10 @@ const { smd, Config } = require('../lib')
 //---------------------------------------------------------------------------
 smd({
             pattern: "live",
-            desc: "Show Live Time Of Pakistan",
+            desc: "Show Live Time Of Lagos",
             category: "fun",
             filename: __filename,
-            use: '<group link.>',
+            use: '<Whats the time>',
         },
         async(message) => {
             try{
@@ -30,12 +30,14 @@ const hrs = parseInt(hours, 10);
 const q =await message.bot.fakeMessage("order") 
 let contextInfo = {...(await message.bot.contextInfo() )}
 let timenow =`
-╭────────────────╮
-│    *${wish}* 
-│     *ᴛɪᴍᴇ* ⌚ ${time} 
-│     *Date* 🎲   ${date} 
-│   ${Config.caption}
-╰────────────────╯
+╭───── *『 RIAS GREMORY BOT』* ───◆
+┃  *${wish}* ${pushname}
+┃ *------------------------------------------*
+┃  ┌┤  *✯---- LIVE ----⦿*
+┃  │✭ *ᴛɪᴍᴇ* ⏰ ${time}
+┃  │✭ *ᴅᴀᴛᴇ* 🎲 ${date} 
+┃  │✭${Config.caption}
+┃  ╰───────────────────◆
 `
 await message.send(timenow, {contextInfo : contextInfo },"asta",  q )
         }catch(e){ await message.error(`${e}\n\ncommand: live`,e,false)}
