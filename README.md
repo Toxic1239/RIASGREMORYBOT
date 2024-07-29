@@ -70,7 +70,7 @@ IF YOU DON'T HAVE A REPLIT ACCOUNT CREATE ONE AND DEPLOY
 ***
 ### DEVELOPER:
 **GET In Touch with The Owner**
-- [**On WhatsApp**](https://wa.me/33757054414)
+- [**On TELEGRAM**](https://t.me/Toxxicn_bot)
 
 ***
 
