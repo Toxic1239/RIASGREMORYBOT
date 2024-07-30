@@ -1,15 +1,24 @@
-FROM docker.io/fxastro/fx-patch:latest
+FROM node:lts-buster
 
-RUN git clone https://github.com/Toxic1239/RIASGREMORYBOT /root/Toxic1239
+RUN apt-get update && \
+  apt-get install -y \
+  ffmpeg \
+  imagemagick \
+  webp && \
+  apt-get upgrade -y && \
+  npm i pm2 -g && \
+  rm -rf /var/lib/apt/lists/*
+  
+RUN git clone https://github.com/Toxic1239/RIASGREMORYBOT  /root/Toxix1239
+WORKDIR /root/Toxic1239/
 
-# Clear npm cache and remove node_modules directories
-RUN npm cache clean --force
-RUN rm -rf /root/Toxic1239/node_modules
 
-# Install dependencies
-WORKDIR /root/Toxic1239
-RUN npm install
+COPY package.json .
+RUN npm install pm2 -g
+RUN npm install --legacy-peer-deps
 
-# Add additional Steps To Run...
+COPY . .
+
 EXPOSE 3000
+
 CMD ["npm","start" ]
