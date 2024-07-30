@@ -117,7 +117,7 @@ const profile = `
 *Powered by ${tlang().title}*
 `;
             
-w
+
             message.bot.sendMessage(message.chat, { image: { url: pfp },caption: profile }, { quoted: message });
           }catch(e){ await message.error(`${e}\n\ncommand: tagall`,e,`*Can't fetch data,please check mongodb!!*`) }
         }
