@@ -31,7 +31,7 @@ const q =await message.bot.fakeMessage("order")
 let contextInfo = {...(await message.bot.contextInfo() )}
 let timenow =`
 ╭───── *『 RIAS GREMORY BOT』* ───◆
-┃  *${wish}* ${pushname}
+┃  *${wish}*
 ┃ *------------------------------------------*
 ┃  ┌┤  *✯---- LIVE ----⦿*
 ┃  │✭ *ᴛɪᴍᴇ* ⏰ ${time}
