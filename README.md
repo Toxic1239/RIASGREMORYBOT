@@ -1,4 +1,4 @@
-<h1 align="center"> RIAS GREMORY BOT V1.3.1 </h1>
+<h1 align="center"> RIAS GREMORY BOT V1.3.3 </h1>
 <p align="center">  
   
 ***
