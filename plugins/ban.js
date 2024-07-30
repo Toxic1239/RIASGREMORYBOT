@@ -22,7 +22,7 @@ smd(
      await new sck1({ id: users, ban: 'true' }).save()
      return citel.reply(`_Banned ${usr.name} from Using Commands._`)
     } else {
-     if (usr.ban == 'true') return citel.reply(`${pushname} is already Banned from Using Commands`)
+     if (usr.ban == 'true') return citel.reply(`${pushnamer} is already Banned from Using Commands`)
      await sck1.updateOne({ id: users }, { ban: 'true' })
      return citel.reply(`_Successfully Banned ${usr.name} from Using Commands._`)
     }
@@ -50,7 +50,7 @@ smd(
    sck1.findOne({ id: users }).then(async usr => {
     if (!usr) {
      console.log(usr.ban)
-     return citel.reply(`${pushname} is unbanned.`)
+     return citel.reply(`${pushnamer} is unbanned.`)
     } else {
      console.log(usr.ban)
      if (usr.ban !== 'true') return citel.reply(`${usr.name} is already unbanned.`)
