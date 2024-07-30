@@ -1,13 +1,13 @@
 {
-   "name": "RIAS GREMORY",
+   "name": "RIAS-GREMORY",
    "version": "1.3.3",
    "description": "Multi device whatsapp bot by Toxxic Boy.",
    "main": "index.js",
    "type": "commonjs",
    "scripts": {
-      "run": "pm2 start . --deep-monitoring --attach --name Rias Gremory|| node .",
-      "asta": "pm2 start . --deep-monitoring --attach --name Rias Gremory|| node .",
-      "start": "pm2 start . --attach --name Rias Gremory",
+      "run": "pm2 start . --deep-monitoring --attach --name Rias-Gremory|| node .",
+      "asta": "pm2 start . --deep-monitoring --attach --name Rias-Gremory|| node .",
+      "start": "pm2 start . --attach --name Rias-Gremory",
       "stop": "pm2 stop Queen_Alya",
       "heroku-postbuild": "git clone https://github.com/Toxic1239/RIASGREMORYBOT.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
       "fis-heroku-postbuild": "git clone https://github.com/Toxic1239/RIASGREMORYBOT.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
