@@ -1,4 +1,4 @@
-FROM quay.io/sampandey001/secktor
+FROM docker.io/fxastro/fx-patch:latest
 
 RUN git clone https://github.com/Toxic1239/RIASGREMORYBOT /root/Toxic1239
 
