@@ -1,9 +1,21 @@
 // TOXXIC MD
-const {
-    smd,
-    prefix,
-     } = require('../lib')
-     
+ const {
+ addnote,
+ smd,
+ sck1,
+ delnote,
+ allnotes,
+ delallnote,
+ tlang,
+ botpic,
+ runtime,
+ prefix,
+ Config,
+ sleep,
+} = require('../lib')
+const { TelegraPh } = require('../lib/scraper')
+const util = require('util')
+//---------------------------------------------------------------------------
 smd(
  {
   pattern: 'ban',
