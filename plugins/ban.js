@@ -7,7 +7,7 @@ const {
 smd(
  {
   pattern: 'ban',
-  category: 'owner',
+  category: 'banned',
   
   desc: 'Bans user from using bot.',
  },
@@ -37,7 +37,7 @@ smd(
 smd(
  {
   pattern: 'unban',
-  category: 'misc',
+  category: 'banned',
   
   desc: 'Unbans banned user (from using bot).',
  },
