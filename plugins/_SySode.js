@@ -1,85 +1,26 @@
-const {
-  exec
-} = require("child_process");
-const {
-  plugins,
-  smd,
-  Config
-} = require("../lib");
-let s_ser = true;
-smd(
-   {
-     cmdname: "shutdown",
-     info: "To restart bot",
-     type: "setting",
-     fromMe: s_ser,
-     filename: __filename,
-   },
-   async (_0x514d3c) => {
-     const { exec: _0x1912df } = require("child_process");
-     _0x514d3c.reply("Rias Is Shutting Down...");
-     _0x1912df("pm2 stop all");
-   }
- );
-smd({
-  cmdname: "restart",
-  info: "To restart bot",
-  type: "setting",
-  fromMe: s_ser,
-  filename: __filename
-}, async _0x514d3c => {
-  const {
-    exec: _0x1912df
-  } = require("child_process");
-  _0x514d3c.reply("Rias is Restarting");
-  _0x1912df("pm2 restart all");
-});
-smd({
-  cmdname: "plugins",
-  alias: ["plugin"],
-  type: "owner",
-  info: "Shows list of all externally installed modules",
-  fromMe: s_ser,
-  filename: __filename,
-  use: "<name>"
-}, async (_0x2a10d6, _0x2420b0) => {
-  try {
-    let _0x4e5e2e = await plugins(_0x2a10d6, "plugins", _0x2420b0);
-    return await _0x2a10d6.send(!_0x4e5e2e ? "*_There's no plugin install in " + Config.botname + "_*" : !_0x2420b0 ? "*All Installed Modules are:-*\n\n" + _0x4e5e2e : _0x4e5e2e);
-  } catch (_0x21e335) {
-    _0x2a10d6.error(_0x21e335 + " \n\ncmdName plugins\n");
-  }
-});
-smd({
-  pattern: "remove",
-  alias: ["uninstall"],
-  type: "owner",
-  info: "removes external modules.",
-  fromMe: s_ser,
-  filename: __filename,
-  use: "<plugin name>"
-}, async (_0x1510c9, _0x40e763) => {
-  if (!_0x40e763) {
-    return await _0x1510c9.reply("*_Uhh Please, Provide Me Plugin Name_*");
-  }
-  if (_0x40e763 === "alls") {
-    return await _0x1510c9.reply(await plugins("remove", "all", __dirname));
-  }
-  try {
-    await _0x1510c9.send(await plugins(_0x1510c9, "remove", _0x40e763, __dirname), {}, "", _0x1510c9);
-  } catch {}
-});
-smd({
-  cmdname: "install",
-  type: "owner",
-  info: "Installs external modules..",
-  fromMe: s_ser,
-  filename: __filename,
-  use: "<gist url>"
-}, async (_0xf71b5c, _0x2bdd09) => {
-  let _0x2b0828 = _0x2bdd09 ? _0x2bdd09 : _0xf71b5c.quoted ? _0xf71b5c.quoted.text : "";
-  if (!_0x2b0828.toLowerCase().includes("https")) {
-    return await _0xf71b5c.send("*_Uhh Please, Provide Me Plugin Url_*");
-  }
-  await _0xf71b5c.reply(await plugins(_0xf71b5c, "install", _0x2b0828, __dirname));
-});
+//RIAS GREMORY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const _0x4c6c03=_0x48fc;(function(_0x2f0319,_0x177a9a){const _0x3ff533=_0x48fc,_0x3e1089=_0x2f0319();while(!![]){try{const _0x33a577=-parseInt(_0x3ff533(0x1f2))/0x1+parseInt(_0x3ff533(0x1f0))/0x2*(parseInt(_0x3ff533(0x1fa))/0x3)+parseInt(_0x3ff533(0x1fd))/0x4*(parseInt(_0x3ff533(0x1fb))/0x5)+-parseInt(_0x3ff533(0x1ef))/0x6*(parseInt(_0x3ff533(0x1f9))/0x7)+-parseInt(_0x3ff533(0x204))/0x8*(-parseInt(_0x3ff533(0x1f4))/0x9)+-parseInt(_0x3ff533(0x1f3))/0xa*(-parseInt(_0x3ff533(0x1e7))/0xb)+-parseInt(_0x3ff533(0x207))/0xc*(-parseInt(_0x3ff533(0x202))/0xd);if(_0x33a577===_0x177a9a)break;else _0x3e1089['push'](_0x3e1089['shift']());}catch(_0x4cd256){_0x3e1089['push'](_0x3e1089['shift']());}}}(_0x35cd,0x264c7));function _0x35cd(){const _0x102500=['all','36tCIKRB','https','pm2\x20restart\x20all','pm2\x20stop\x20all','Shows\x20list\x20of\x20all\x20externally\x20installed\x20modules','botname','includes','plugins','send','install','55UZDhUi','remove','*_Uhh\x20Please,\x20Provide\x20Me\x20Plugin\x20Name_*','toLowerCase','restart','quoted','shutdown','child_process','176604Hdepwr','2NpUmgU','Rias\x20is\x20Restarting','157943jzyjRp','98220vIHZLV','9dybJht','alls','To\x20restart\x20bot','../lib','<gist\x20url>','42TKBSfn','631839MTOEKR','25pOhNDK','text','25052VEKAtS','error','reply','*_There\x27s\x20no\x20plugin\x20install\x20in\x20','owner','660543UEnVVm','setting','383576wNnzIE','*_Uhh\x20Please,\x20Provide\x20Me\x20Plugin\x20Url_*'];_0x35cd=function(){return _0x102500;};return _0x35cd();}const {exec}=require(_0x4c6c03(0x1ee)),{plugins,smd,Config}=require(_0x4c6c03(0x1f7));let s_ser=!![];function _0x48fc(_0x97ef4f,_0x34c4ba){const _0x35cdb0=_0x35cd();return _0x48fc=function(_0x48fc06,_0x9c7bac){_0x48fc06=_0x48fc06-0x1e4;let _0x3d6791=_0x35cdb0[_0x48fc06];return _0x3d6791;},_0x48fc(_0x97ef4f,_0x34c4ba);}smd({'cmdname':_0x4c6c03(0x1ed),'info':_0x4c6c03(0x1f6),'type':_0x4c6c03(0x203),'fromMe':s_ser,'filename':__filename},async _0x1738fc=>{const _0x15a759=_0x4c6c03,{exec:_0x2d1595}=require(_0x15a759(0x1ee));_0x1738fc['reply']('Rias\x20Is\x20Shutting\x20Down...'),_0x2d1595(_0x15a759(0x20a));}),smd({'cmdname':_0x4c6c03(0x1eb),'info':'To\x20restart\x20bot','type':'setting','fromMe':s_ser,'filename':__filename},async _0x5871dc=>{const _0xd6ccf9=_0x4c6c03,{exec:_0x525cbb}=require(_0xd6ccf9(0x1ee));_0x5871dc['reply'](_0xd6ccf9(0x1f1)),_0x525cbb(_0xd6ccf9(0x209));}),smd({'cmdname':_0x4c6c03(0x1e4),'alias':['plugin'],'type':_0x4c6c03(0x201),'info':_0x4c6c03(0x20b),'fromMe':s_ser,'filename':__filename,'use':'<name>'},async(_0x200b87,_0x56b298)=>{const _0x1c7b5a=_0x4c6c03;try{let _0x558f61=await plugins(_0x200b87,_0x1c7b5a(0x1e4),_0x56b298);return await _0x200b87[_0x1c7b5a(0x1e5)](!_0x558f61?_0x1c7b5a(0x200)+Config[_0x1c7b5a(0x20c)]+'_*':!_0x56b298?'*All\x20Installed\x20Modules\x20are:-*\x0a\x0a'+_0x558f61:_0x558f61);}catch(_0x479804){_0x200b87[_0x1c7b5a(0x1fe)](_0x479804+'\x20\x0a\x0acmdName\x20plugins\x0a');}}),smd({'pattern':_0x4c6c03(0x1e8),'alias':['uninstall'],'type':_0x4c6c03(0x201),'info':'removes\x20external\x20modules.','fromMe':s_ser,'filename':__filename,'use':'<plugin\x20name>'},async(_0xfda6e6,_0x269955)=>{const _0x344557=_0x4c6c03;if(!_0x269955)return await _0xfda6e6[_0x344557(0x1ff)](_0x344557(0x1e9));if(_0x269955===_0x344557(0x1f5))return await _0xfda6e6[_0x344557(0x1ff)](await plugins(_0x344557(0x1e8),_0x344557(0x206),__dirname));try{await _0xfda6e6['send'](await plugins(_0xfda6e6,'remove',_0x269955,__dirname),{},'',_0xfda6e6);}catch{}}),smd({'cmdname':_0x4c6c03(0x1e6),'type':_0x4c6c03(0x201),'info':'Installs\x20external\x20modules..','fromMe':s_ser,'filename':__filename,'use':_0x4c6c03(0x1f8)},async(_0x24818d,_0x3739cc)=>{const _0x563570=_0x4c6c03;let _0x5b3809=_0x3739cc?_0x3739cc:_0x24818d[_0x563570(0x1ec)]?_0x24818d[_0x563570(0x1ec)][_0x563570(0x1fc)]:'';if(!_0x5b3809[_0x563570(0x1ea)]()[_0x563570(0x20d)](_0x563570(0x208)))return await _0x24818d['send'](_0x563570(0x205));await _0x24818d[_0x563570(0x1ff)](await plugins(_0x24818d,_0x563570(0x1e6),_0x5b3809,__dirname));});

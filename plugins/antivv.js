@@ -1,106 +1,26 @@
-const { smd, bot_ } = require("../lib");
-let bgmm = false;
-smd(
-  {
-    cmdname: "antiviewonce",
-    alias: ["antivv"],
-    desc: "turn On/Off auto viewOnce Downloder",
-    fromMe: true,
-    type: "user",
-    use: "<on/off>",
-    filename: __filename,
-  },
-  async (_0x5c3dd1, _0x543e4e) => {
-    try {
-      bgmm =
-        (await bot_.findOne({
-          id: "bot_" + _0x5c3dd1.user,
-        })) ||
-        (await bot_.new({
-          id: "bot_" + _0x5c3dd1.user,
-        }));
-      let _0x446f76 = _0x543e4e.toLowerCase().split(" ")[0].trim();
-      if (_0x446f76 === "on" || _0x446f76 === "enable" || _0x446f76 === "act") {
-        if (bgmm.antiviewonce === "true") {
-          return await _0x5c3dd1.reply("*AntiViewOnce already enabled!*");
-        }
-        await bot_.updateOne(
-          {
-            id: "bot_" + _0x5c3dd1.user,
-          },
-          {
-            antiviewonce: "true",
-          }
-        );
-        return await _0x5c3dd1.reply("*AntiViewOnce Succesfully enabled*");
-      } else if (
-        _0x446f76 === "off" ||
-        _0x446f76 === "disable" ||
-        _0x446f76 === "deact"
-      ) {
-        if (bgmm.antiviewonce === "false") {
-          return await _0x5c3dd1.reply("*AntiViewOnce already disabled*");
-        }
-        await bot_.updateOne(
-          {
-            id: "bot_" + _0x5c3dd1.user,
-          },
-          {
-            antiviewonce: "false",
-          }
-        );
-        return await _0x5c3dd1.reply("*AntiViewOnce Succesfully deactivated*");
-      } else {
-        return await _0x5c3dd1.send(
-          "*_Use on/off to enable/disable antiViewOnce!_*"
-        );
-      }
-    } catch (_0x4bb48d) {
-      await _0x5c3dd1.error(
-        _0x4bb48d + "\n\nCommand: AntiViewOnce ",
-        _0x4bb48d
-      );
-    }
-  }
-);
-smd(
-  {
-    on: "viewonce",
-  },
-  async (_0x4a4a25, _0x1400fa) => {
-    try {
-      if (!bgmm) {
-        bgmm = await bot_.findOne({
-          id: "bot_" + _0x4a4a25.user,
-        });
-      }
-      if (bgmm && bgmm.antiviewonce && bgmm.antiviewonce === "true") {
-        let _0x52bb9a = {
-          key: {
-            ..._0x4a4a25.key,
-          },
-          message: {
-            conversation: "```[VIEWONCE DETECTED] downloading!```",
-          },
-        };
-        let _0x58b72c = await _0x4a4a25.bot.downloadAndSaveMediaMessage(
-          _0x4a4a25.msg
-        );
-        await _0x4a4a25.bot.sendMessage(
-          _0x4a4a25.from,
-          {
-            [_0x4a4a25.mtype2.split("Message")[0]]: {
-              url: _0x58b72c,
-            },
-            caption: _0x4a4a25.body,
-          },
-          {
-            quoted: _0x52bb9a,
-          }
-        );
-      }
-    } catch (_0x6010c1) {
-      console.log("error while getting antiviewOnce media\n, ", _0x6010c1);
-    }
-  }
-);
+//RIAS GREMORY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const _0x535280=_0x25b9;(function(_0x369116,_0x1b3977){const _0x2224c6=_0x25b9,_0x28f654=_0x369116();while(!![]){try{const _0x582f01=-parseInt(_0x2224c6(0x178))/0x1+parseInt(_0x2224c6(0x17c))/0x2+-parseInt(_0x2224c6(0x169))/0x3+-parseInt(_0x2224c6(0x17e))/0x4+-parseInt(_0x2224c6(0x175))/0x5+parseInt(_0x2224c6(0x17b))/0x6+parseInt(_0x2224c6(0x181))/0x7*(parseInt(_0x2224c6(0x18c))/0x8);if(_0x582f01===_0x1b3977)break;else _0x28f654['push'](_0x28f654['shift']());}catch(_0x452a48){_0x28f654['push'](_0x28f654['shift']());}}}(_0x33aa,0xc616c));const {smd,bot_}=require(_0x535280(0x171));function _0x25b9(_0x1588aa,_0x40c123){const _0x33aae2=_0x33aa();return _0x25b9=function(_0x25b92b,_0x45b391){_0x25b92b=_0x25b92b-0x167;let _0x50d93e=_0x33aae2[_0x25b92b];return _0x50d93e;},_0x25b9(_0x1588aa,_0x40c123);}let bgmm=![];function _0x33aa(){const _0x49306a=['downloadAndSaveMediaMessage','key','error\x20while\x20getting\x20antiviewOnce\x20media\x0a,\x20','bot_','reply','*AntiViewOnce\x20already\x20enabled!*','msg','../lib','Message','from','new','1376945ciaWQD','updateOne','turn\x20On/Off\x20auto\x20viewOnce\x20Downloder','1219440dFOVvg','disable','off','2746908EMeqhw','2723280jlgXzR','deact','1238884yphMZs','false','body','1141nZlbkG','<on/off>','antiviewonce','bot','findOne','\x0a\x0aCommand:\x20AntiViewOnce\x20','error','true','user','mtype2','sendMessage','106936AjYtke','trim','enable','4147071TCUJcb'];_0x33aa=function(){return _0x49306a;};return _0x33aa();}smd({'cmdname':_0x535280(0x183),'alias':['antivv'],'desc':_0x535280(0x177),'fromMe':!![],'type':_0x535280(0x189),'use':_0x535280(0x182),'filename':__filename},async(_0x45020b,_0x5e23e2)=>{const _0xf72c36=_0x535280;try{bgmm=await bot_[_0xf72c36(0x185)]({'id':_0xf72c36(0x16d)+_0x45020b[_0xf72c36(0x189)]})||await bot_[_0xf72c36(0x174)]({'id':_0xf72c36(0x16d)+_0x45020b[_0xf72c36(0x189)]});let _0xf3c820=_0x5e23e2['toLowerCase']()['split']('\x20')[0x0][_0xf72c36(0x167)]();if(_0xf3c820==='on'||_0xf3c820===_0xf72c36(0x168)||_0xf3c820==='act'){if(bgmm[_0xf72c36(0x183)]===_0xf72c36(0x188))return await _0x45020b[_0xf72c36(0x16e)](_0xf72c36(0x16f));return await bot_[_0xf72c36(0x176)]({'id':'bot_'+_0x45020b['user']},{'antiviewonce':_0xf72c36(0x188)}),await _0x45020b[_0xf72c36(0x16e)]('*AntiViewOnce\x20Succesfully\x20enabled*');}else{if(_0xf3c820===_0xf72c36(0x17a)||_0xf3c820===_0xf72c36(0x179)||_0xf3c820===_0xf72c36(0x17d)){if(bgmm[_0xf72c36(0x183)]==='false')return await _0x45020b[_0xf72c36(0x16e)]('*AntiViewOnce\x20already\x20disabled*');return await bot_[_0xf72c36(0x176)]({'id':_0xf72c36(0x16d)+_0x45020b[_0xf72c36(0x189)]},{'antiviewonce':_0xf72c36(0x17f)}),await _0x45020b[_0xf72c36(0x16e)]('*AntiViewOnce\x20Succesfully\x20deactivated*');}else return await _0x45020b['send']('*_Use\x20on/off\x20to\x20enable/disable\x20antiViewOnce!_*');}}catch(_0x38b151){await _0x45020b[_0xf72c36(0x187)](_0x38b151+_0xf72c36(0x186),_0x38b151);}}),smd({'on':'viewonce'},async(_0x4b7750,_0x1e15d4)=>{const _0x313762=_0x535280;try{!bgmm&&(bgmm=await bot_['findOne']({'id':'bot_'+_0x4b7750[_0x313762(0x189)]}));if(bgmm&&bgmm['antiviewonce']&&bgmm[_0x313762(0x183)]==='true'){let _0x37c517={'key':{..._0x4b7750[_0x313762(0x16b)]},'message':{'conversation':'```[VIEWONCE\x20DETECTED]\x20downloading!```'}},_0x2b72a9=await _0x4b7750['bot'][_0x313762(0x16a)](_0x4b7750[_0x313762(0x170)]);await _0x4b7750[_0x313762(0x184)][_0x313762(0x18b)](_0x4b7750[_0x313762(0x173)],{[_0x4b7750[_0x313762(0x18a)]['split'](_0x313762(0x172))[0x0]]:{'url':_0x2b72a9},'caption':_0x4b7750[_0x313762(0x180)]},{'quoted':_0x37c517});}}catch(_0x4766e5){console['log'](_0x313762(0x16c),_0x4766e5);}});

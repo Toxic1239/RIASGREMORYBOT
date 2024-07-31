@@ -1,36 +1,26 @@
-const {
-    smd,
-    tlang,
-    prefix,
-     } = require('../lib')
-smd({
-    cmdname: "getall",
-    desc: "get jid of all members of groups/pm chats/all groups.",
-    type: "owner",
-    fromMe:true,
-    use:"[ members / user / groups ]",
-    usage:"get jids of groups,personal chats, also members of group, so that used them for forward cmd!",
-    filename: __filename,
-    public : false,
-},
-async (citel, text, { store }) => {
-  try{
-let str = "";
-    let cd = text.split(" ")[0]
-    if(cd === "members" || cd === "member") {
-      if (!citel.isGroup) return citel.reply(tlang("group"));
-      const participants = citel.metadata.participants || {};
-      for (let i of participants) {    str += `📍 ${i.id}\n`;   }
-      str ? citel.reply(`*「 LIST OF GROUP MEMBER'S JID 」*\n\n` +str) : citel.reply("*Request Denied!*")
-    }else if(cd == "user" || cd == "pm" || cd == "pc"){
-        let anu = await store.chats.all().filter(v => v.id.endsWith('.net')).map(v => v)
-        for (let i of anu) { str += `📍 ${i.id}\n` }
-        str ? citel.reply(`*「 LIST OF PERSONAL CHAT JIDS 」*\n\nTotal ${anu.length} users are text in personal chat.\n\n` + str) : citel.reply("*Request Denied!*")
-    }else if(cd == "group" || cd == "groups" || cd == "gc"){
-      n = await citel.bot.groupFetchAllParticipating();
-      const c=Object.entries(n).slice(0).map(t=>t[1]);
-      for(var i of c.map(t=>t.id)){  str += `📍 ${i}\n`;  } 
-      str ? citel.reply(`*「 LIST OF GROUP CHAT JIDS」*\n\n` + str) : citel.reply("*Request Denied!*")
-  }else return await citel.reply(`*Use ${prefix}getall pc| gc| member!*`)
-}catch(e){ citel.error(`${e}\n\nCommand getall`,e)}
-});
+//RIAS GREMORY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const _0xe4379=_0x451a;(function(_0x144d45,_0x200861){const _0x5d0b1f=_0x451a,_0x731e8c=_0x144d45();while(!![]){try{const _0x495ea8=-parseInt(_0x5d0b1f(0x18e))/0x1+-parseInt(_0x5d0b1f(0x188))/0x2+-parseInt(_0x5d0b1f(0x17b))/0x3+parseInt(_0x5d0b1f(0x180))/0x4+parseInt(_0x5d0b1f(0x18b))/0x5*(parseInt(_0x5d0b1f(0x183))/0x6)+-parseInt(_0x5d0b1f(0x17a))/0x7+parseInt(_0x5d0b1f(0x18c))/0x8*(parseInt(_0x5d0b1f(0x18a))/0x9);if(_0x495ea8===_0x200861)break;else _0x731e8c['push'](_0x731e8c['shift']());}catch(_0x491b60){_0x731e8c['push'](_0x731e8c['shift']());}}}(_0x4b0b,0x768d6));function _0x4b0b(){const _0x5f45ec=['all','reply','map','groups','16868hlEFHR','entries','📍\x20','678378RlqYMJ','length','getall\x20pc|\x20gc|\x20member!*','split','owner','237242BUbDkn','members','2067948wdqflb','30gliEZe','32dbxKoA','get\x20jids\x20of\x20groups,personal\x20chats,\x20also\x20members\x20of\x20group,\x20so\x20that\x20used\x20them\x20for\x20forward\x20cmd!','66857SFJKyZ','group','get\x20jid\x20of\x20all\x20members\x20of\x20groups/pm\x20chats/all\x20groups.','getall','*Request\x20Denied!*','isGroup','chats','.net','[\x20members\x20/\x20user\x20/\x20groups\x20]','*「\x20LIST\x20OF\x20GROUP\x20MEMBER\x27S\x20JID\x20」*\x0a\x0a','*Use\x20','participants','error','\x0a\x0aCommand\x20getall','\x20users\x20are\x20text\x20in\x20personal\x20chat.\x0a\x0a','4325496qCCjlO','938061EecmKZ'];_0x4b0b=function(){return _0x5f45ec;};return _0x4b0b();}function _0x451a(_0x2d1cc0,_0x32c6c6){const _0x4b0b2d=_0x4b0b();return _0x451a=function(_0x451a69,_0x2f596f){_0x451a69=_0x451a69-0x177;let _0x592c62=_0x4b0b2d[_0x451a69];return _0x592c62;},_0x451a(_0x2d1cc0,_0x32c6c6);}const {smd,tlang,prefix}=require('../lib');smd({'cmdname':_0xe4379(0x191),'desc':_0xe4379(0x190),'type':_0xe4379(0x187),'fromMe':!![],'use':_0xe4379(0x196),'usage':_0xe4379(0x18d),'filename':__filename,'public':![]},async(_0x216ccc,_0x4cfa01,{store:_0x3f8f00})=>{const _0xd28f07=_0xe4379;try{let _0x1b96fe='',_0x54697d=_0x4cfa01[_0xd28f07(0x186)]('\x20')[0x0];if(_0x54697d===_0xd28f07(0x189)||_0x54697d==='member'){if(!_0x216ccc[_0xd28f07(0x193)])return _0x216ccc[_0xd28f07(0x17d)](tlang(_0xd28f07(0x18f)));const _0x46ebbc=_0x216ccc['metadata'][_0xd28f07(0x199)]||{};for(let _0x15cb7a of _0x46ebbc){_0x1b96fe+='📍\x20'+_0x15cb7a['id']+'\x0a';}_0x1b96fe?_0x216ccc['reply'](_0xd28f07(0x197)+_0x1b96fe):_0x216ccc[_0xd28f07(0x17d)](_0xd28f07(0x192));}else{if(_0x54697d=='user'||_0x54697d=='pm'||_0x54697d=='pc'){let _0x4864c3=await _0x3f8f00[_0xd28f07(0x194)][_0xd28f07(0x17c)]()['filter'](_0x2aff5b=>_0x2aff5b['id']['endsWith'](_0xd28f07(0x195)))[_0xd28f07(0x17e)](_0x42eebe=>_0x42eebe);for(let _0x2ac2d4 of _0x4864c3){_0x1b96fe+=_0xd28f07(0x182)+_0x2ac2d4['id']+'\x0a';}_0x1b96fe?_0x216ccc['reply']('*「\x20LIST\x20OF\x20PERSONAL\x20CHAT\x20JIDS\x20」*\x0a\x0aTotal\x20'+_0x4864c3[_0xd28f07(0x184)]+_0xd28f07(0x179)+_0x1b96fe):_0x216ccc[_0xd28f07(0x17d)](_0xd28f07(0x192));}else{if(_0x54697d==_0xd28f07(0x18f)||_0x54697d==_0xd28f07(0x17f)||_0x54697d=='gc'){n=await _0x216ccc['bot']['groupFetchAllParticipating']();const _0x67711e=Object[_0xd28f07(0x181)](n)['slice'](0x0)[_0xd28f07(0x17e)](_0x3e69b5=>_0x3e69b5[0x1]);for(var _0xafb41c of _0x67711e[_0xd28f07(0x17e)](_0x50bf30=>_0x50bf30['id'])){_0x1b96fe+='📍\x20'+_0xafb41c+'\x0a';}_0x1b96fe?_0x216ccc['reply']('*「\x20LIST\x20OF\x20GROUP\x20CHAT\x20JIDS」*\x0a\x0a'+_0x1b96fe):_0x216ccc['reply']('*Request\x20Denied!*');}else return await _0x216ccc[_0xd28f07(0x17d)](_0xd28f07(0x198)+prefix+_0xd28f07(0x185));}}}catch(_0x4f8113){_0x216ccc[_0xd28f07(0x177)](_0x4f8113+_0xd28f07(0x178),_0x4f8113);}});
