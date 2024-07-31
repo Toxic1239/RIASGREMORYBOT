@@ -1,6 +1,0 @@
-# Deploybot config
-deployments:
-- name: staging
-  # auto-deploy from the staging branch to the staging environment, when tests pass
-  on_push: true
-  on_push_branch: staging
