@@ -69,7 +69,9 @@
       "youtubei.js": "^7.0.0",
       "ytdl-core": "github:franceking1/flash-dls",
       "ytdl-secktor": "^0.0.1-development",
-      "ytdl-core": "github:franceking1/flash-dls"
+      "ytdl-core": "github:franceking1/flash-dls", 
+      "ytdl-core": "^4.11.5", 
+      "ytdl-core": "github:khlevon/node-ytdl-core#v4.11.4-patch."
    },
    "directories": {
       "lib": "lib",
