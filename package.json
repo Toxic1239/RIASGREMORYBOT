@@ -8,7 +8,7 @@
       "run": "pm2 start . --deep-monitoring --attach --name Rias-Gremory|| node .",
       "asta": "pm2 start . --deep-monitoring --attach --name Rias-Gremory|| node .",
       "start": "pm2 start . --attach --name Rias-Gremory",
-      "stop": "pm2 stop Queen_Alya",
+      "stop": "pm2 stop Rias-Gremory",
       "heroku-postbuild": "git clone https://github.com/Toxic1239/RIASGREMORYBOT.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
       "fis-heroku-postbuild": "git clone https://github.com/Toxic1239/RIASGREMORYBOT.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
       "postinstall": "npx puppeteer@latest install --y"
@@ -69,9 +69,7 @@
       "youtubei.js": "^7.0.0",
       "ytdl-core": "github:franceking1/flash-dls",
       "ytdl-secktor": "^0.0.1-development",
-      "ytdl-core": "github:franceking1/flash-dls", 
-      "ytdl-core": "^4.11.5", 
-      "ytdl-core": "github:khlevon/node-ytdl-core#v4.11.4-patch."
+      "ytdl-core": "github:franceking1/flash-dls"
    },
    "directories": {
       "lib": "lib",
