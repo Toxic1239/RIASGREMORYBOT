@@ -16,10 +16,7 @@
 
 "author": "Toxic1239",
    "license": "Apache-2.0",
-   "dependencies": {
-      "@distube/ytdl-core": "^4.13.5",
-    "@ffmpeg-installer/ffmpeg": "^1.1.0",
-    "@google/generative-ai": "^0.9.0",
+      "dependencies": {
       "@adiwajshing/keyed-db": "^0.2.4",
       "@hapi/boom": "^9.1.4",
       "@whiskeysockets/baileys": "6.6.0",
@@ -33,6 +30,7 @@
       "child_process": "^1.0.2",
       "crypto-js": "latest",
       "discord-mongoose-economy": "^1.2.0",
+      "@distube/ytdl-core": "^4.13.5",
       "discord-xp": "^1.1.16",
       "dotenv": "^16.0.0",
       "express": "^4.18.1",
@@ -66,9 +64,9 @@
       "translatte": "^3.0.1",
       "util": "^0.12.4",
       "wa-sticker-formatter": "^4.3.2",
-      "youtubei.js": "^7.0.0",
-      "ytdl-core": "github:franceking1/flash-dls",
-      "ytdl-secktor": "^0.0.1-development",
+      "youtube-yts": "^2.0.0",
+      "youtubedl-core": "^4.11.7",
+      "yt-search": "^2.10.4",
       "ytdl-core": "github:franceking1/flash-dls"
    },
    "directories": {
