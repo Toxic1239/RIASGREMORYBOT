@@ -50,6 +50,12 @@ IF YOU DON'T HAVE A REPLIT ACCOUNT CREATE ONE AND DEPLOY
     <br>
     <a href='https://dashboard.render.com/web/new' target="_blank"><img alt='Render' src='https://img.shields.io/badge/-Deploy-grey?style=for-the-badge&logo=railway&logoColor=white'/></a>
 
+    ### DEPLOY ON CODESPACE 
+1. Deploy. `Free`
+Add session Id to config.js and then deploy to codespace
+    <br>
+    <a href='https://github.com/codespaces' target="_blank"><img alt='Codespace' src='https://img.shields.io/badge/-Deploy-green?style=for-the-badge&logo=codespace&logoColor=white'/></a>
+
 ***
 
 
