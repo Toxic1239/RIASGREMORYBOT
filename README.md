@@ -79,10 +79,21 @@ Add session Id to config.js and then deploy to codespace
 - [**On TELEGRAM**](https://t.me/Toxxicn_bot)
 
 ***
+### WARNING
+
+- **RIAS-GREMORY is not made by `WhatsApp Inc.` Sometimes or misusing the bot might `ban` your `WhatsApp account!`*
+- *In that case, I'm not responsible for banning your account.*
+- *Use RIAS-GREMORY at your own risk by keeping this warning in mind.*
+  
+  #### ```TOTAL PROFILE VIEWS 🧚```
+![Visitor Count](https://profile-counter.glitch.me/Toxic1239/count.svg)
+
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
+ ## [ WHATSAPP CHANNEL ](https://whatsapp.com/channel/0029Vaex2BtGU3BRQoeEsl0U) 
 
 ### THANKS TO:
 
 - WASI FOR SESSION ID METHOD
 - ASTRO FOR THE BASE I USED
-- DAVID CRYIL FOR INSPIRATION
 - KING FOR SONG DOWNLOADER FIX 
