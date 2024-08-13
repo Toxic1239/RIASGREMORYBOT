@@ -87,7 +87,7 @@ Add session Id to config.js and then deploy to codespace
 - *In that case, I'm not responsible for banning your account.*
 - *Use RIAS-GREMORY at your own risk by keeping this warning in mind.*
   
-  #### ```TOTAL PROFILE VIEWS 🧚```
+  #### ```TOTAL REPO VIEWS 🧚```
 ![Visitor Count](https://profile-counter.glitch.me/Toxic1239/count.svg)
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
