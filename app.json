@@ -9,18 +9,18 @@
     "env": {
       "OWNER_NAME": {
         "description": "Name for Bot Owner",
-        "value": "TOXXIC MD",
+        "value": "DAVE MD",
         "required": true
       },
   
       "WELCOME": {
         "description": "put 'false' or 'true' to enable & disable WELCOME ",
-        "value": "false",
+        "value": "true",
         "required": false
       },
       "USER_IMAGES": {
         "description": "Menu Images",
-        "value": "https://i.imgur.com/EBUvKfB.jpeg",
+        "value": "https://telegra.ph/file/6b1a45ff8629b85059715.jpg",
         "required": false
       },
   
@@ -35,12 +35,12 @@
       },
       "THUMB_IMAGE": {
         "description": "Thumbnail",
-        "value": "https://i.imgur.com/EBUvKfB.jpeg"
+        "value": "https://telegra.ph/file/267339af1c7e2eb8306e3.jpg"
       },
       "BOT_NAME": {
         "description": " NAME FOR BOT",
         "required": false,
-        "value": "RIAS_GREMORY-BOT"
+        "value": "DAVE MD-BOT"
       },
       "TZ": {
         "description": "Put TIME_ZONE according to your location",
@@ -85,7 +85,7 @@
       "MSGS_IN_LOG": {
         "description": "Fill the value -true- if you want to see Messages in logs.",
         "required": false,
-        "value": "false"
+        "value": "true"
       },
       "READ_MESSAGE": {
         "description": "Fill the value true if you want bot to read all messages.",
@@ -99,19 +99,19 @@
       },
       "PREFIX": {
         "description": "Enter your desired prefix for bot. you can set `all | . | .!*`",
-        "value": "."
+        "value": ""
       },
       "OWNER_NUMBER": {
         "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-        "value": "33757054414"
+        "value": "254114127157"
       },
       "SESSION_ID": {
         "description": "put your SESSION_ID here.",
-        "value": ""
+        "value": "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiSUpUQWtYMjEzN3Y0QVJSSUY4WkRWUHBoV2hxV1dxNnlOeVdSTk1pTDBsbz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoibVF5RWJSZGtJWXVnY0lTTWlmeStCcFEwVnRkeHhvVVJMeXlRM2poK2lIaz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiIrTWFsWmZ6VjJKVWo5azd6ZXIxc1JiL2NnaDU3bDlVMGtRVzhVZnpNSTA4PSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJUSVNYSCtHanVaOWl1UE11MGluUjNrQlBGdXhKUTZxSC9DdlQwR05RMDNJPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IndQbmVNTCt1UEQvSHViV2ZPUEVvRkJSbUxNMzFLWHpNaFQ5dmQ2TWc5azg9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjY4blB5NE13Vnh6RVBYZEN3QjJqQUlXWjdzNkl4ckNwWm5RejZrM3BNV2s9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoibVBQN0VBQ1owenIyY2hjN1FjSWVlYTdIdmdkR1F5R1JQYlVxdDR5Vk8zND0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoibk5vN0p3eXYrS3dXM3BsZG1UTjUxUzNiTm9oTUoxaXNZaWg1RDNUSk1TQT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlMvdlBNZ2k2RTdSdjh1dWU3c3hrYk8vcHdHM0NKWTZKbWt1UHBjbnQ5WXRjTnZ6TEZLUnhmL3ZkalVzWWZPTExZbE5VM1Z5LzlQS21TL0piWWNUNkRBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6NDksImFkdlNlY3JldEtleSI6IlBhdkNIRmZzSHFuVXI2WmFhVE1MU3dNT1lsYlNTT1hQV1NtQkpYaVd5NUk9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbXSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6IkFoVkVZSnhTUUo2bmR0SEJ0TndvdmciLCJwaG9uZUlkIjoiMDhkMzZiMjctYTIxNS00NDJjLTg5NTItNjE4MGM1ZTE5NTgxIiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlBSZEthT0hOK2hhbHZTSGhxUnNBaW9IUGNsWT0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJhaE1WNlk1VTlJcExoVzBRVmYwbUs5V2pvMWs9In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiUU1MWDdGOEwiLCJtZSI6eyJpZCI6IjI1NDExNDEyNzE1Nzo5QHMud2hhdHNhcHAubmV0IiwibmFtZSI6IkTMtMyGzJPNgM2LzYvMgM2EzIbNnMymQcy0zZ3Mg82gzZ3MqcypzLxWzLbNi8yLzJ3MqEXMuMyMzYTMjsyDzIHMgMy+zIbMvc2MzY4ifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ09EVTYyMFE1YkhjdFFZWUNTQUFLQUE9IiwiYWNjb3VudFNpZ25hdHVyZUtleSI6InZKbHlvUGNBeVpSV0NKRmFROG92TkN6TVJFL2NJSC82TzZ2MGFvaldnaUk9IiwiYWNjb3VudFNpZ25hdHVyZSI6Imc5UWR0SDBqY2k2OXg0eVN5RUU3aTRRRnZLMzM5NGRoa0ZzMDdLN0hPL1JrODVGR2lkQklMVWt0UjJHb0kwbnRJVnZXbFp4bjBiYzdJOGhYUG9iVkJnPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJlRjJkcGVZbWxhdElXMVZJSjlwNjhEemNGUEkvTHY2QnhnTVJoZS9aZnJoY1k3U1hFYmxadndLTS9KRXc0WEIzNWJ5VVhKL0lsSVpHc2NaMjh4cStDZz09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjI1NDExNDEyNzE1Nzo5QHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQmJ5WmNxRDNBTW1VVmdpUldrUEtMelFzekVSUDNDQi8ranVyOUdxSTFvSWkifX1dLCJwbGF0Zm9ybSI6InNtYmEiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3MjMyNzU1MDYsIm15QXBwU3RhdGVLZXlJZCI6IkFBQUFBUERvIn0="
       },
       "MODE": {
         "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
-        "value": "private"
+        "value": "public"
       },
       "PACK_NAME": {
         "description": "Put Sticker Pack_Name.",
