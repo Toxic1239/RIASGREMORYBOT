@@ -50,7 +50,7 @@ IF YOU DON'T HAVE A REPLIT ACCOUNT CREATE ONE AND DEPLOY
 2. TUTORIAL     <br>
     <a href='https://youtube.com/shorts/JBwgqKqD-iw?si=i05juACNTRWWctsJ' target="_blank"><img alt='Youtube' src='https://img.shields.io/badge/-Tutorial-grey?style=for-the-badge&logo=youtube&logoColor=red'/></a>
     <br>
-    <a href='https://github.com/Toxic1239/RIASGREMORY' target="_blank"><img alt='Github' src='https://img.shields.io/badge/-Tap+here-grey?style=for-the-badge&logo=github&logoColor=white'/></a>
+    <a href='https://github.com/Toxic1239/Render' target="_blank"><img alt='Github' src='https://img.shields.io/badge/-Tap+here-grey?style=for-the-badge&logo=github&logoColor=white'/></a>
 
     ### DEPLOY ON CODESPACE 
 1. Deploy. `Free`
