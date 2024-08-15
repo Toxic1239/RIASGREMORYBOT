@@ -16,13 +16,16 @@
 <a href="https://github.com/Toxic1239/RIASGREMORYBOT/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Toxic1239/RIASGREMORYBOT?label=Watchers&color=yellow&style=flat-square"></a>
 
 #### SETUP 
+### IF YOU WANNA DEPLOY USING CREDS.JSON ADD THE CREDS TO LIB/SESSIONS FOLDER 
 
 ### 1.`First STAR 🌟 This Repo ` And Then [`FORK`](https://github.com/Toxic1239/RIASGREMORYBOT/fork) It
 
 ### 2. GET SESSION ID HERE 
 
 <a href='https://riasgremorybot-xcqv.onrender.com/' target="_blank"><img alt='PAIR CODE' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
+### 3. GET CREDS.JSON HERE 
 
+<a href='https://replit.com/@obidikechikadib/Toxic-Creds#main.sh' target="_blank"><img alt='PAIR CODE' src='https://img.shields.io/badge/Click here to get your Creds file-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
 
 ### STEP 2
 ADD SESSION ID TO YOUR FORKED REPO IN CONFIG.JS
