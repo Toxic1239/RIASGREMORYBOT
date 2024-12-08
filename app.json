@@ -1,5 +1,5 @@
 {
-    "name": "RIAS_GREMORY-BOT v1.0",
+    "name": RIAS_GREMORY-BOT v1.0",
     "description": "Simple WhatsApp Bot",
     "logo": "https://i.imgur.com/EBUvKfB.jpeg",
     "keywords": ["RIAS_GREMORY-BOT", "rais", "rais-Bot"],
@@ -9,7 +9,7 @@
     "env": {
       "OWNER_NAME": {
         "description": "Name for Bot Owner",
-        "value": "TOXXIC MD",
+        "value": "JAGUAR ",
         "required": true
       },
   
@@ -80,7 +80,7 @@
       "AUTO_READ_STATUS": {
         "description": "Fill the value true if you want bot view your Statuses.",
         "required": false,
-        "value": "true"
+        "value": "false"
       },
       "MSGS_IN_LOG": {
         "description": "Fill the value -true- if you want to see Messages in logs.",
@@ -103,7 +103,7 @@
       },
       "OWNER_NUMBER": {
         "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-        "value": "33757054414"
+        "value": "2349131375168"
       },
       "SESSION_ID": {
         "description": "put your SESSION_ID here.",
